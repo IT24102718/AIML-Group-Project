@@ -1,0 +1,47 @@
+{
+  "best_model": "Logistic Regression (Optimized)",
+  "accuracy": 0.9914529914529915,
+  "accuracy_lr": 0.9914529914529915,
+  "accuracy_rf": 0.9316239316239316,
+  "accuracy_svm": 0.9658119658119658,
+  "accuracy_voting": 0.9658119658119658,
+  "intents": [
+    "academic_difficulty",
+    "advice_seeking",
+    "career_uncertainty",
+    "family_support",
+    "farewell",
+    "financial_concerns",
+    "gratitude",
+    "greeting",
+    "health_issues",
+    "mental_health",
+    "motivation_issues",
+    "risk_inquiry",
+    "technical_issues",
+    "time_management"
+  ],
+  "num_intents": 14,
+  "training_samples": 465,
+  "test_samples": 117,
+  "training_date": "2026-02-15T20:10:35.679757",
+  "model_type": "Pipeline",
+  "cv_results": {
+    "Logistic Regression (Optimized)": {
+      "mean": 0.6631447096964338,
+      "std": 0.0945109892207791
+    },
+    "Random Forest": {
+      "mean": 0.467491895078102,
+      "std": 0.05002910132349447
+    },
+    "SVM": {
+      "mean": 0.640834070144415,
+      "std": 0.07850456493365585
+    },
+    "Ensemble": {
+      "mean": 0.5807987032124963,
+      "std": 0.07916299907017892
+    }
+  }
+}

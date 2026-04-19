@@ -1,0 +1,199 @@
+{
+  "academic_difficulty": {
+    "LOW": {
+      "text": "Your academic risk is low! Here are some study tips based on successful students:",
+      "tips": [
+        "Form study groups with classmates",
+        "Use the university's tutoring center",
+        "Review material within 24 hours of lectures",
+        "Create a consistent study schedule",
+        "Use active recall techniques"
+      ],
+      "resources": [
+        "Academic Success Center - Room 203",
+        "Peer Tutoring Program - sign up online",
+        "Study Skills Workshop - every Tuesday"
+      ]
+    },
+    "MEDIUM": {
+      "text": "You're showing some academic concerns. We recommend:",
+      "tips": [
+        "Meet with your academic advisor this week",
+        "Consider reducing your course load next semester",
+        "Use professor's office hours regularly",
+        "Join a study group for difficult subjects"
+      ],
+      "resources": [
+        "Academic Advising - Book appointment online",
+        "Supplemental Instruction sessions",
+        "Time management workshop - Thursday 2pm"
+      ]
+    },
+    "HIGH": {
+      "text": " URGENT: Your academic performance needs immediate attention.",
+      "tips": [
+        "Schedule mandatory meeting with academic advisor TODAY",
+        "Review your study strategies immediately",
+        "Consider academic probation support program",
+        "Attend all office hours this week"
+      ],
+      "resources": [
+        "Academic Alert System - you've been flagged",
+        "Dean's Office - emergency appointment available",
+        "Student Success Team - will contact you within 24h"
+      ]
+    }
+  },
+  "financial_concerns": {
+    "LOW": {
+      "text": "Your financial situation looks stable, but planning ahead helps:",
+      "tips": [
+        "Apply for scholarships for next semester",
+        "Create a student budget",
+        "Look into on-campus job opportunities",
+        "Check if you qualify for work-study"
+      ],
+      "resources": [
+        "Financial Aid Office - open Mon-Fri 9-5",
+        "Scholarship database: scholarships.university.edu",
+        "Student Employment Office - Room 105"
+      ]
+    },
+    "MEDIUM": {
+      "text": "You may be eligible for additional financial support:",
+      "tips": [
+        "Complete the FAFSA/financial aid application immediately",
+        "Visit Financial Aid Office this week",
+        "Apply for emergency grants",
+        "Discuss payment plans with Bursar's Office"
+      ],
+      "resources": [
+        "Financial Aid Emergency Fund - apply online",
+        "Bursar's Office - payment plan options",
+        "Student Emergency Assistance Program"
+      ]
+    },
+    "HIGH": {
+      "text": " URGENT FINANCIAL CONCERN: You need immediate assistance.",
+      "tips": [
+        "GO TO FINANCIAL AID OFFICE TODAY",
+        "Apply for emergency financial aid immediately",
+        "Speak with Dean of Students about options",
+        "Don't miss tuition deadline - seek help NOW"
+      ],
+      "resources": [
+        "Emergency Financial Aid - walk-ins accepted",
+        "Dean of Students - emergency contact",
+        "Student Crisis Fund - application available"
+      ]
+    }
+  },
+  "time_management": {
+    "LOW": {
+      "text": "Your time management is good! Here's how to maintain it:",
+      "tips": [
+        "Use a planner or digital calendar",
+        "Block out study time for each subject",
+        "Take regular breaks (Pomodoro technique)",
+        "Review your schedule weekly"
+      ],
+      "resources": [
+        "Time Management Workshop - online module",
+        "Planner templates available at Student Success",
+        "Productivity apps: recommended list"
+      ]
+    },
+    "MEDIUM": {
+      "text": "Time management could be improved. Try these strategies:",
+      "tips": [
+        "Create a fixed daily study schedule",
+        "Reduce non-essential commitments",
+        "Use the 2:1 ratio (2 hours study : 1 hour work)",
+        "Set specific goals for each study session"
+      ],
+      "resources": [
+        "Time Management Counseling - book appointment",
+        "Weekly planning template - download",
+        "Student Success Workshop - Thursday"
+      ]
+    },
+    "HIGH": {
+      "text": " Your time management is critically impacting your studies.",
+      "tips": [
+        "MEET WITH ACADEMIC ADVISOR IMMEDIATELY",
+        "Consider reducing work hours or course load",
+        "Create emergency study plan for this week",
+        "Use university's time management coach"
+      ],
+      "resources": [
+        "Academic Advising - emergency appointment",
+        "Student Success Coordinator - assigned to you",
+        "Time Management Intensive Program"
+      ]
+    }
+  },
+  "motivation_issues": {
+    "LOW": {
+      "text": "Staying motivated is key! Here are some ideas:",
+      "tips": [
+        "Connect with student clubs and organizations",
+        "Set small, achievable weekly goals",
+        "Find a study buddy or accountability partner",
+        "Remember your long-term career goals"
+      ],
+      "resources": [
+        "Student Life - club listings",
+        "Motivation Workshop - online",
+        "Peer Mentoring Program"
+      ]
+    },
+    "MEDIUM": {
+      "text": "Loss of motivation is common but manageable:",
+      "tips": [
+        "Speak with a counselor about motivation",
+        "Take a career assessment test",
+        "Talk to professors in your major",
+        "Join a support group for students"
+      ],
+      "resources": [
+        "Counseling Center - appointment available",
+        "Career Services - explore options",
+        "Student Support Group - meets Fridays"
+      ]
+    },
+    "HIGH": {
+      "text": " Your motivation concerns need immediate attention:",
+      "tips": [
+        "SCHEDULE COUNSELING APPOINTMENT TODAY",
+        "Talk to someone you trust immediately",
+        "Don't make any decisions alone",
+        "Take a mental health day if needed"
+      ],
+      "resources": [
+        "Counseling Center - crisis line: 555-0123",
+        "24/7 Student Support Hotline",
+        "Dean of Students - immediate assistance"
+      ]
+    }
+  },
+  "risk_inquiry": {
+    "text": "Based on your profile, your dropout risk level is {risk_level}. The main factors affecting this are: {factors}",
+    "LOW": "You're on track! Key strengths: {factors}",
+    "MEDIUM": "You have some risk factors to address: {factors}",
+    "HIGH": " You have multiple high-risk factors: {factors}"
+  },
+  "advice_seeking": {
+    "text": "Based on your {risk_level} risk profile, here's personalized advice:",
+    "LOW": "Focus on maintaining your good habits. Key areas: {factors}",
+    "MEDIUM": "Priority areas for improvement: {factors}",
+    "HIGH": "URGENT: Address these factors immediately: {factors}"
+  },
+  "default": {
+    "text": "I understand you're reaching out for help. A student success counselor will contact you within 24 hours.",
+    "resources": [
+      "Student Success Center",
+      "Counseling Services",
+      "Academic Advising"
+    ]
+  }
+}

@@ -1,0 +1,583 @@
+text,intent,processed_text
+I'm struggling with my math course,academic_difficulty,struggling math course
+I think I'm struggling with my math course,academic_difficulty,think struggling math course
+I'm finding it hard with my math course,academic_difficulty,finding hard math course
+course my with I'm struggling math,academic_difficulty,course struggling math
+I'm having trouble with my classes,academic_difficulty,trouble class
+I think I'm having trouble with my classes,academic_difficulty,think trouble class
+classes having my trouble I'm with,academic_difficulty,class trouble
+The coursework is too difficult,academic_difficulty,coursework difficult
+I believe The coursework is too difficult,academic_difficulty,believe coursework difficult
+The too is coursework difficult,academic_difficulty,coursework difficult
+These classes are way too hard,academic_difficulty,class way hard
+I think These classes are way too hard,academic_difficulty,think class way hard
+These classes are way too difficult,academic_difficulty,class way difficult
+way too are hard These classes,academic_difficulty,way hard class
+I can't understand the lectures,academic_difficulty,cant understand lecture
+I believe I can't understand the lectures,academic_difficulty,believe cant understand lecture
+I lectures can't understand the,academic_difficulty,lecture cant understand
+My grades are dropping,academic_difficulty,grade dropping
+I think My grades are dropping,academic_difficulty,think grade dropping
+are grades dropping My,academic_difficulty,grade dropping
+I failed my midterm exam,academic_difficulty,failed midterm exam
+I believe I failed my midterm exam,academic_difficulty,believe failed midterm exam
+exam I failed midterm my,academic_difficulty,exam failed midterm
+I got a bad grade on my assignment,academic_difficulty,got bad grade assignment
+I think I got a bad grade on my assignment,academic_difficulty,think got bad grade assignment
+assignment I on my a grade got bad,academic_difficulty,assignment grade got bad
+My GPA is falling,academic_difficulty,gpa falling
+I think My GPA is falling,academic_difficulty,think gpa falling
+My is GPA falling,academic_difficulty,gpa falling
+I'm not doing well in any subject,academic_difficulty,well subject
+I think I'm not doing well in any subject,academic_difficulty,think well subject
+subject in any doing well I'm not,academic_difficulty,subject well
+Calculus is impossible,academic_difficulty,calculus impossible
+I believe Calculus is impossible,academic_difficulty,believe calculus impossible
+I don't get this programming assignment,academic_difficulty,dont get programming assignment
+I feel like I don't get this programming assignment,academic_difficulty,feel like dont get programming assignment
+programming this assignment I don't get,academic_difficulty,programming assignment dont get
+Physics equations are confusing,academic_difficulty,physic equation confusing
+I believe Physics equations are confusing,academic_difficulty,believe physic equation confusing
+confusing are Physics equations,academic_difficulty,confusing physic equation
+Can't understand the chemistry lab,academic_difficulty,cant understand chemistry lab
+I believe Can't understand the chemistry lab,academic_difficulty,believe cant understand chemistry lab
+lab Can't understand chemistry the,academic_difficulty,lab cant understand chemistry
+Literature analysis is too complex,academic_difficulty,literature analysis complex
+I believe Literature analysis is too complex,academic_difficulty,believe literature analysis complex
+analysis Literature complex too is,academic_difficulty,analysis literature complex
+Falling behind in all classes,academic_difficulty,falling behind class
+I feel like Falling behind in all classes,academic_difficulty,feel like falling behind class
+in behind classes all Falling,academic_difficulty,behind class falling
+Can't keep up with the coursework,academic_difficulty,cant keep coursework
+I think Can't keep up with the coursework,academic_difficulty,think cant keep coursework
+coursework with up Can't keep the,academic_difficulty,coursework cant keep
+Too much homework to handle,academic_difficulty,much homework handle
+I feel like Too much homework to handle,academic_difficulty,feel like much homework handle
+homework much Too handle to,academic_difficulty,homework much handle
+Assignments are piling up,academic_difficulty,assignment piling
+I believe Assignments are piling up,academic_difficulty,believe assignment piling
+piling are Assignments up,academic_difficulty,piling assignment
+Studying isn't helping,academic_difficulty,studying isnt helping
+I think Studying isn't helping,academic_difficulty,think studying isnt helping
+Studying isn't assistanceing,academic_difficulty,studying isnt assistanceing
+Professor goes too fast,academic_difficulty,professor go fast
+I feel like Professor goes too fast,academic_difficulty,feel like professor go fast
+Can't understand the teaching style,academic_difficulty,cant understand teaching style
+I think Can't understand the teaching style,academic_difficulty,think cant understand teaching style
+style teaching the Can't understand,academic_difficulty,style teaching cant understand
+The TA isn't helpful,academic_difficulty,isnt helpful
+I feel like The TA isn't helpful,academic_difficulty,feel like isnt helpful
+The TA isn't supportful,academic_difficulty,isnt supportful
+isn't The helpful TA,academic_difficulty,isnt helpful
+Need extra help with lectures,academic_difficulty,need extra help lecture
+I think Need extra help with lectures,academic_difficulty,think need extra help lecture
+Need extra assistance with lectures,academic_difficulty,need extra assistance lecture
+with extra lectures help Need,academic_difficulty,extra lecture help need
+The material isn't explained well,academic_difficulty,material isnt explained well
+I feel like The material isn't explained well,academic_difficulty,feel like material isnt explained well
+well isn't The explained material,academic_difficulty,well isnt explained material
+Can't pay my tuition fees,financial_concerns,cant pay tuition fee
+I believe Can't pay my tuition fees,financial_concerns,believe cant pay tuition fee
+tuition my Can't fees pay,financial_concerns,tuition cant fee pay
+Tuition is due and I have no money,financial_concerns,tuition due money
+I believe Tuition is due and I have no money,financial_concerns,believe tuition due money
+Tuition is due and I have no cash,financial_concerns,tuition due cash
+money is no Tuition due have I and,financial_concerns,money tuition due
+I might get dropped for non-payment,financial_concerns,might get dropped nonpayment
+I think I might get dropped for non-payment,financial_concerns,think might get dropped nonpayment
+I dropped for non-payment might get,financial_concerns,dropped nonpayment might get
+The fees are too expensive,financial_concerns,fee expensive
+I feel like The fees are too expensive,financial_concerns,feel like fee expensive
+expensive are fees too The,financial_concerns,expensive fee
+I can't afford this semester,financial_concerns,cant afford semester
+I feel like I can't afford this semester,financial_concerns,feel like cant afford semester
+afford semester can't this I,financial_concerns,afford semester cant
+Need scholarship information,financial_concerns,need scholarship information
+I think Need scholarship information,financial_concerns,think need scholarship information
+How do I apply for financial aid,financial_concerns,apply financial aid
+I feel like How do I apply for financial aid,financial_concerns,feel like apply financial aid
+apply do for financial aid I How,financial_concerns,apply financial aid
+"Lost my scholarship, what now",financial_concerns,lost scholarship
+"I think Lost my scholarship, what now",financial_concerns,think lost scholarship
+"now Lost my what scholarship,",financial_concerns,lost scholarship
+Looking for emergency funding,financial_concerns,looking emergency funding
+I feel like Looking for emergency funding,financial_concerns,feel like looking emergency funding
+emergency Looking for funding,financial_concerns,emergency looking funding
+Financial aid office hours?,financial_concerns,financial aid office hour
+I feel like Financial aid office hours?,financial_concerns,feel like financial aid office hour
+aid hours? office Financial,financial_concerns,aid hour office financial
+Can't afford textbooks,financial_concerns,cant afford textbook
+I think Can't afford textbooks,financial_concerns,think cant afford textbook
+Struggling to buy course materials,financial_concerns,struggling buy course material
+I think Struggling to buy course materials,financial_concerns,think struggling buy course material
+to Struggling materials buy course,financial_concerns,struggling material buy course
+No money for food this week,financial_concerns,money food week
+I think No money for food this week,financial_concerns,think money food week
+No cash for food this week,financial_concerns,cash food week
+food money week for No this,financial_concerns,food money week
+Can't pay for housing,financial_concerns,cant pay housing
+I think Can't pay for housing,financial_concerns,think cant pay housing
+for housing Can't pay,financial_concerns,housing cant pay
+Need help with transportation costs,financial_concerns,need help transportation cost
+I believe Need help with transportation costs,financial_concerns,believe need help transportation cost
+Need support with transportation costs,financial_concerns,need support transportation cost
+transportation costs with help Need,financial_concerns,transportation cost help need
+My parents lost their jobs,financial_concerns,parent lost job
+I feel like My parents lost their jobs,financial_concerns,feel like parent lost job
+parents lost jobs their My,financial_concerns,parent lost job
+Family can't support me anymore,financial_concerns,family cant support anymore
+I think Family can't support me anymore,financial_concerns,think family cant support anymore
+anymore Family support can't me,financial_concerns,anymore family support cant
+Financial emergency at home,financial_concerns,financial emergency home
+I believe Financial emergency at home,financial_concerns,believe financial emergency home
+home at Financial emergency,financial_concerns,home financial emergency
+Family income dropped,financial_concerns,family income dropped
+I feel like Family income dropped,financial_concerns,feel like family income dropped
+Need a part-time job urgently,financial_concerns,need parttime job urgently
+I believe Need a part-time job urgently,financial_concerns,believe need parttime job urgently
+Need a part-availability job urgently,financial_concerns,need partavailability job urgently
+job a urgently part-time Need,financial_concerns,job urgently parttime need
+Student loan questions,financial_concerns,student loan question
+I think Student loan questions,financial_concerns,think student loan question
+Can I get a payment plan,financial_concerns,get payment plan
+I feel like Can I get a payment plan,financial_concerns,feel like get payment plan
+I payment get plan a Can,financial_concerns,payment get plan
+Work-study options?,financial_concerns,workstudy option
+I believe Work-study options?,financial_concerns,believe workstudy option
+Work-review options?,financial_concerns,workreview option
+Emergency loan availability,financial_concerns,emergency loan availability
+I believe Emergency loan availability,financial_concerns,believe emergency loan availability
+Bank account issues,financial_concerns,bank account issue
+I feel like Bank account issues,financial_concerns,feel like bank account issue
+No time to study,time_management,time study
+I believe No time to study,time_management,believe time study
+No availability to study,time_management,availability study
+to time study No,time_management,time study
+Too busy with work,time_management,busy work
+I believe Too busy with work,time_management,believe busy work
+with busy Too work,time_management,busy work
+Can't balance work and school,time_management,cant balance work school
+I think Can't balance work and school,time_management,think cant balance work school
+work Can't school balance and,time_management,work cant school balance
+Always rushing deadlines,time_management,always rushing deadline
+I feel like Always rushing deadlines,time_management,feel like always rushing deadline
+Procrastinating too much,time_management,procrastinating much
+I feel like Procrastinating too much,time_management,feel like procrastinating much
+Can't manage my schedule,time_management,cant manage schedule
+I believe Can't manage my schedule,time_management,believe cant manage schedule
+manage Can't my schedule,time_management,manage cant schedule
+Overwhelmed by workload,time_management,overwhelmed workload
+I think Overwhelmed by workload,time_management,think overwhelmed workload
+Falling behind on assignments,time_management,falling behind assignment
+I think Falling behind on assignments,time_management,think falling behind assignment
+behind Falling on assignments,time_management,behind falling assignment
+Never enough hours in the day,time_management,never enough hour day
+I feel like Never enough hours in the day,time_management,feel like never enough hour day
+the enough day hours Never in,time_management,enough day hour never
+Need help organizing time,time_management,need help organizing time
+I believe Need help organizing time,time_management,believe need help organizing time
+Need help organizing schedule,time_management,need help organizing schedule
+time Need organizing help,time_management,time need organizing help
+Work taking too much time,time_management,work taking much time
+I feel like Work taking too much time,time_management,feel like work taking much time
+Work taking too much schedule,time_management,work taking much schedule
+time Work too taking much,time_management,time work taking much
+Family responsibilities piling up,time_management,family responsibility piling
+I think Family responsibilities piling up,time_management,think family responsibility piling
+up piling responsibilities Family,time_management,piling responsibility family
+Can't find study time,time_management,cant find study time
+I think Can't find study time,time_management,think cant find study time
+Can't find study availability,time_management,cant find study availability
+time find Can't study,time_management,time find cant study
+Always tired from juggling everything,time_management,always tired juggling everything
+I think Always tired from juggling everything,time_management,think always tired juggling everything
+from Always juggling everything tired,time_management,always juggling everything tired
+Missing deadlines frequently,time_management,missing deadline frequently
+I feel like Missing deadlines frequently,time_management,feel like missing deadline frequently
+How to balance everything,time_management,balance everything
+I feel like How to balance everything,time_management,feel like balance everything
+to everything How balance,time_management,everything balance
+Time management tips needed,time_management,time management tip needed
+I think Time management tips needed,time_management,think time management tip needed
+needed tips Time management,time_management,needed tip time management
+Struggling with schedule,time_management,struggling schedule
+I feel like Struggling with schedule,time_management,feel like struggling schedule
+Can't prioritize tasks,time_management,cant prioritize task
+I think Can't prioritize tasks,time_management,think cant prioritize task
+Too many commitments,time_management,many commitment
+I feel like Too many commitments,time_management,feel like many commitment
+I want to quit university,motivation_issues,want quit university
+I think I want to quit university,motivation_issues,think want quit university
+I want to leave university,motivation_issues,want leave university
+I university to want quit,motivation_issues,university want quit
+Thinking of dropping out,motivation_issues,thinking dropping
+I believe Thinking of dropping out,motivation_issues,believe thinking dropping
+of Thinking out dropping,motivation_issues,thinking dropping
+Lost all motivation,motivation_issues,lost motivation
+I feel like Lost all motivation,motivation_issues,feel like lost motivation
+Feel like giving up,motivation_issues,feel like giving
+I feel like Feel like giving up,motivation_issues,feel like feel like giving
+up giving like Feel,motivation_issues,giving like feel
+No interest in studies anymore,motivation_issues,interest study anymore
+I believe No interest in studies anymore,motivation_issues,believe interest study anymore
+anymore No studies in interest,motivation_issues,anymore study interest
+What's the point of all this,motivation_issues,whats point
+I think What's the point of all this,motivation_issues,think whats point
+What's of all the point this,motivation_issues,whats point
+University feels meaningless,motivation_issues,university feel meaningless
+I feel like University feels meaningless,motivation_issues,feel like university feel meaningless
+Can't find motivation to attend class,motivation_issues,cant find motivation attend class
+I believe Can't find motivation to attend class,motivation_issues,believe cant find motivation attend class
+class motivation to Can't attend find,motivation_issues,class motivation cant attend find
+Burned out and exhausted,motivation_issues,burned exhausted
+I think Burned out and exhausted,motivation_issues,think burned exhausted
+and out exhausted Burned,motivation_issues,exhausted burned
+Don't care about grades anymore,motivation_issues,dont care grade anymore
+I believe Don't care about grades anymore,motivation_issues,believe dont care grade anymore
+about grades anymore Don't care,motivation_issues,grade anymore dont care
+Skipping classes due to lack of motivation,motivation_issues,skipping class due lack motivation
+I think Skipping classes due to lack of motivation,motivation_issues,think skipping class due lack motivation
+of lack Skipping classes due to motivation,motivation_issues,lack skipping class due motivation
+No drive to study,motivation_issues,drive study
+I think No drive to study,motivation_issues,think drive study
+No drive to prepare,motivation_issues,drive prepare
+No study to drive,motivation_issues,study drive
+Feeling stuck and unmotivated,motivation_issues,feeling stuck unmotivated
+I believe Feeling stuck and unmotivated,motivation_issues,believe feeling stuck unmotivated
+and stuck unmotivated Feeling,motivation_issues,stuck unmotivated feeling
+Why am I even here,motivation_issues,even
+I feel like Why am I even here,motivation_issues,feel like even
+here am even Why I,motivation_issues,even
+Lost passion for learning,motivation_issues,lost passion learning
+I feel like Lost passion for learning,motivation_issues,feel like lost passion learning
+Lost for learning passion,motivation_issues,lost learning passion
+Can't get myself to do anything,motivation_issues,cant get anything
+I feel like Can't get myself to do anything,motivation_issues,feel like cant get anything
+Can't do get anything myself to,motivation_issues,cant get anything
+Everything feels pointless,motivation_issues,everything feel pointless
+I believe Everything feels pointless,motivation_issues,believe everything feel pointless
+Need motivation to continue,motivation_issues,need motivation continue
+I feel like Need motivation to continue,motivation_issues,feel like need motivation continue
+Feeling hopeless about studies,motivation_issues,feeling hopeless study
+I feel like Feeling hopeless about studies,motivation_issues,feel like feeling hopeless study
+about Feeling hopeless studies,motivation_issues,feeling hopeless study
+Should I take a break from school,motivation_issues,take break school
+I believe Should I take a break from school,motivation_issues,believe take break school
+from school Should take break I a,motivation_issues,school take break
+Feeling very stressed,mental_health,feeling stressed
+I think Feeling very stressed,mental_health,think feeling stressed
+Feeling very worryed,mental_health,feeling worryed
+Anxiety is overwhelming,mental_health,anxiety overwhelming
+I think Anxiety is overwhelming,mental_health,think anxiety overwhelming
+Feeling depressed,mental_health,feeling depressed
+I believe Feeling depressed,mental_health,believe feeling depressed
+Can't handle the pressure,mental_health,cant handle pressure
+I feel like Can't handle the pressure,mental_health,feel like cant handle pressure
+handle pressure Can't the,mental_health,handle pressure cant
+Need someone to talk to,mental_health,need someone talk
+I think Need someone to talk to,mental_health,think need someone talk
+to to Need talk someone,mental_health,need talk someone
+Mental health is suffering,mental_health,mental health suffering
+I think Mental health is suffering,mental_health,think mental health suffering
+suffering health Mental is,mental_health,suffering health mental
+Having panic attacks,mental_health,panic attack
+I think Having panic attacks,mental_health,think panic attack
+Can't sleep from stress,mental_health,cant sleep stress
+I think Can't sleep from stress,mental_health,think cant sleep stress
+Can't sleep from pressure,mental_health,cant sleep pressure
+Can't from stress sleep,mental_health,cant stress sleep
+Overwhelmed by everything,mental_health,overwhelmed everything
+I think Overwhelmed by everything,mental_health,think overwhelmed everything
+Need counseling services,mental_health,need counseling service
+I feel like Need counseling services,mental_health,feel like need counseling service
+Feeling really down lately,mental_health,feeling really lately
+I feel like Feeling really down lately,mental_health,feel like feeling really lately
+down lately really Feeling,mental_health,lately really feeling
+Stress affecting my studies,mental_health,stress affecting study
+I believe Stress affecting my studies,mental_health,believe stress affecting study
+my affecting Stress studies,mental_health,affecting stress study
+Anxiety before every exam,mental_health,anxiety every exam
+I feel like Anxiety before every exam,mental_health,feel like anxiety every exam
+before Anxiety every exam,mental_health,anxiety every exam
+Feeling isolated and alone,mental_health,feeling isolated alone
+I think Feeling isolated and alone,mental_health,think feeling isolated alone
+and alone isolated Feeling,mental_health,alone isolated feeling
+Can't focus due to stress,mental_health,cant focus due stress
+I think Can't focus due to stress,mental_health,think cant focus due stress
+Can't focus due to worry,mental_health,cant focus due worry
+due to stress Can't focus,mental_health,due stress cant focus
+Need mental health support,mental_health,need mental health support
+I think Need mental health support,mental_health,think need mental health support
+mental Need support health,mental_health,mental need support health
+Feeling burnt out,mental_health,feeling burnt
+I think Feeling burnt out,mental_health,think feeling burnt
+Crying all the time,mental_health,cry time
+I feel like Crying all the time,mental_health,feel like cry time
+Crying all the hours,mental_health,cry hour
+the Crying all time,mental_health,cry time
+Worried about everything,mental_health,worried everything
+I believe Worried about everything,mental_health,believe worried everything
+Help with stress management,mental_health,help stress management
+I feel like Help with stress management,mental_health,feel like help stress management
+Help with anxiety management,mental_health,help anxiety management
+Help stress management with,mental_health,help stress management
+Family doesn't support my education,family_support,family doesnt support education
+I think Family doesn't support my education,family_support,think family doesnt support education
+doesn't support my Family education,family_support,doesnt support family education
+Parents putting too much pressure,family_support,parent putting much pressure
+I believe Parents putting too much pressure,family_support,believe parent putting much pressure
+too pressure much Parents putting,family_support,pressure much parent putting
+Family problems at home,family_support,family problem home
+I believe Family problems at home,family_support,believe family problem home
+home Family problems at,family_support,home family problem
+No support system,family_support,support system
+I think No support system,family_support,think support system
+Family wants me to work instead,family_support,family want work instead
+I think Family wants me to work instead,family_support,think family want work instead
+to Family me wants instead work,family_support,family want instead work
+Parents don't understand,family_support,parent dont understand
+I think Parents don't understand,family_support,think parent dont understand
+Family crisis affecting studies,family_support,family crisis affecting study
+I think Family crisis affecting studies,family_support,think family crisis affecting study
+affecting studies Family crisis,family_support,affecting study family crisis
+Need to take care of family,family_support,need take care family
+I think Need to take care of family,family_support,think need take care family
+care family to Need of take,family_support,care family need take
+Home environment is stressful,family_support,home environment stressful
+I feel like Home environment is stressful,family_support,feel like home environment stressful
+Home environment is pressureful,family_support,home environment pressureful
+is environment Home stressful,family_support,environment home stressful
+Family expectations too high,family_support,family expectation high
+I think Family expectations too high,family_support,think family expectation high
+high Family expectations too,family_support,high family expectation
+Parents fighting at home,family_support,parent fighting home
+I think Parents fighting at home,family_support,think parent fighting home
+fighting Parents home at,family_support,fighting parent home
+Family financial pressure,family_support,family financial pressure
+I believe Family financial pressure,family_support,believe family financial pressure
+No quiet place to study at home,family_support,quiet place study home
+I feel like No quiet place to study at home,family_support,feel like quiet place study home
+No quiet place to review at home,family_support,quiet place review home
+study place quiet No home at to,family_support,study place quiet home
+Family health issues,family_support,family health issue
+I feel like Family health issues,family_support,feel like family health issue
+Need family counseling,family_support,need family counseling
+I think Need family counseling,family_support,think need family counseling
+Not sure about career path,career_uncertainty,sure career path
+I think Not sure about career path,career_uncertainty,think sure career path
+sure Not path about career,career_uncertainty,sure path career
+Will I get a job after graduation,career_uncertainty,get job graduation
+I feel like Will I get a job after graduation,career_uncertainty,feel like get job graduation
+job I Will a after graduation get,career_uncertainty,job graduation get
+This degree might be useless,career_uncertainty,degree might useless
+I feel like This degree might be useless,career_uncertainty,feel like degree might useless
+useless might be degree This,career_uncertainty,useless might degree
+What are the job prospects,career_uncertainty,job prospect
+I believe What are the job prospects,career_uncertainty,believe job prospect
+the What prospects job are,career_uncertainty,prospect job
+No clear career direction,career_uncertainty,clear career direction
+I think No clear career direction,career_uncertainty,think clear career direction
+career direction clear No,career_uncertainty,career direction clear
+Worried about future,career_uncertainty,worried future
+I believe Worried about future,career_uncertainty,believe worried future
+Should I change my major,career_uncertainty,change major
+I feel like Should I change my major,career_uncertainty,feel like change major
+change I major Should my,career_uncertainty,change major
+Career counseling needed,career_uncertainty,career counseling needed
+I think Career counseling needed,career_uncertainty,think career counseling needed
+Industry doesn't interest me,career_uncertainty,industry doesnt interest
+I feel like Industry doesn't interest me,career_uncertainty,feel like industry doesnt interest
+doesn't interest Industry me,career_uncertainty,doesnt interest industry
+Not sure what I want to do,career_uncertainty,sure want
+I believe Not sure what I want to do,career_uncertainty,believe sure want
+what do I Not sure want to,career_uncertainty,sure want
+Job market concerns,career_uncertainty,job market concern
+I believe Job market concerns,career_uncertainty,believe job market concern
+Internship opportunities,career_uncertainty,internship opportunity
+I think Internship opportunities,career_uncertainty,think internship opportunity
+Career guidance needed,career_uncertainty,career guidance needed
+I feel like Career guidance needed,career_uncertainty,feel like career guidance needed
+Placement worries,career_uncertainty,placement worry
+I feel like Placement worries,career_uncertainty,feel like placement worry
+Salary expectations,career_uncertainty,salary expectation
+I believe Salary expectations,career_uncertainty,believe salary expectation
+Been sick frequently,health_issues,sick frequently
+I think Been sick frequently,health_issues,think sick frequently
+Health affecting attendance,health_issues,health affecting attendance
+I feel like Health affecting attendance,health_issues,feel like health affecting attendance
+Need medical leave,health_issues,need medical leave
+I feel like Need medical leave,health_issues,feel like need medical leave
+Chronic illness issues,health_issues,chronic illness issue
+I believe Chronic illness issues,health_issues,believe chronic illness issue
+Going to the hospital,health_issues,going hospital
+I think Going to the hospital,health_issues,think going hospital
+to Going hospital the,health_issues,going hospital
+Doctor appointments during class,health_issues,doctor appointment class
+I believe Doctor appointments during class,health_issues,believe doctor appointment class
+appointments Doctor class during,health_issues,appointment doctor class
+Health deteriorating,health_issues,health deteriorating
+I feel like Health deteriorating,health_issues,feel like health deteriorating
+Can't concentrate due to health,health_issues,cant concentrate due health
+I think Can't concentrate due to health,health_issues,think cant concentrate due health
+health Can't concentrate to due,health_issues,health cant concentrate due
+Need medical accommodation,health_issues,need medical accommodation
+I believe Need medical accommodation,health_issues,believe need medical accommodation
+Recovering from surgery,health_issues,recovering surgery
+I feel like Recovering from surgery,health_issues,feel like recovering surgery
+Medical condition flaring up,health_issues,medical condition flaring
+I believe Medical condition flaring up,health_issues,believe medical condition flaring
+Medical flaring up condition,health_issues,medical flaring condition
+Health insurance questions,health_issues,health insurance question
+I believe Health insurance questions,health_issues,believe health insurance question
+Doctor's notes for missed classes,health_issues,doctor note missed class
+I think Doctor's notes for missed classes,health_issues,think doctor note missed class
+missed notes classes for Doctor's,health_issues,missed note class doctor
+Health emergency,health_issues,health emergency
+I think Health emergency,health_issues,think health emergency
+Need health services on campus,health_issues,need health service campus
+I think Need health services on campus,health_issues,think need health service campus
+health services campus Need on,health_issues,health service campus need
+Laptop not working,technical_issues,laptop working
+I feel like Laptop not working,technical_issues,feel like laptop working
+Internet connection problems,technical_issues,internet connection problem
+I believe Internet connection problems,technical_issues,believe internet connection problem
+Can't access online resources,technical_issues,cant access online resource
+I feel like Can't access online resources,technical_issues,feel like cant access online resource
+access Can't online resources,technical_issues,access cant online resource
+Software keeps crashing,technical_issues,software keep crashing
+I think Software keeps crashing,technical_issues,think software keep crashing
+LMS access issues,technical_issues,lm access issue
+I feel like LMS access issues,technical_issues,feel like lm access issue
+Computer too slow,technical_issues,computer slow
+I feel like Computer too slow,technical_issues,feel like computer slow
+Need technical support,technical_issues,need technical support
+I believe Need technical support,technical_issues,believe need technical support
+Lost my data/files,technical_issues,lost datafiles
+I think Lost my data/files,technical_issues,think lost datafiles
+Can't submit assignments online,technical_issues,cant submit assignment online
+I think Can't submit assignments online,technical_issues,think cant submit assignment online
+assignments Can't online submit,technical_issues,assignment cant online submit
+Video lectures won't load,technical_issues,video lecture wont load
+I think Video lectures won't load,technical_issues,think video lecture wont load
+won't Video lectures load,technical_issues,wont video lecture load
+Login problems,technical_issues,login problem
+I feel like Login problems,technical_issues,feel like login problem
+Website not working,technical_issues,website working
+I believe Website not working,technical_issues,believe website working
+Email issues,technical_issues,email issue
+I feel like Email issues,technical_issues,feel like email issue
+Printer problems,technical_issues,printer problem
+I feel like Printer problems,technical_issues,feel like printer problem
+Need loaner laptop,technical_issues,need loaner laptop
+I feel like Need loaner laptop,technical_issues,feel like need loaner laptop
+What should I do to improve,advice_seeking,improve
+I believe What should I do to improve,advice_seeking,believe improve
+What should I do to enhance,advice_seeking,enhance
+improve to What should I do,advice_seeking,improve
+Can you give me some advice,advice_seeking,give advice
+I believe Can you give me some advice,advice_seeking,believe give advice
+you give Can me some advice,advice_seeking,give advice
+How can I do better,advice_seeking,better
+I think How can I do better,advice_seeking,think better
+How better do can I,advice_seeking,better
+Suggest some study tips,advice_seeking,suggest study tip
+I believe Suggest some study tips,advice_seeking,believe suggest study tip
+Suggest some learn tips,advice_seeking,suggest learn tip
+some tips study Suggest,advice_seeking,tip study suggest
+What strategies work best,advice_seeking,strategy work best
+I believe What strategies work best,advice_seeking,believe strategy work best
+work strategies What best,advice_seeking,work strategy best
+Help me figure this out,advice_seeking,help figure
+I believe Help me figure this out,advice_seeking,believe help figure
+this me Help figure out,advice_seeking,help figure
+Need some guidance,advice_seeking,need guidance
+I think Need some guidance,advice_seeking,think need guidance
+What would you recommend,advice_seeking,would recommend
+I think What would you recommend,advice_seeking,think would recommend
+recommend What would you,advice_seeking,recommend would
+Tell me what to do,advice_seeking,tell
+I think Tell me what to do,advice_seeking,think tell
+me what to do Tell,advice_seeking,tell
+Need academic advice,advice_seeking,need academic advice
+I think Need academic advice,advice_seeking,think need academic advice
+How to improve my grades,advice_seeking,improve grade
+I feel like How to improve my grades,advice_seeking,feel like improve grade
+How to enhance my grades,advice_seeking,enhance grade
+How grades to my improve,advice_seeking,grade improve
+Best way to study,advice_seeking,best way study
+I feel like Best way to study,advice_seeking,feel like best way study
+Best way to learn,advice_seeking,best way learn
+Best to way study,advice_seeking,best way study
+Tips for success,advice_seeking,tip success
+I think Tips for success,advice_seeking,think tip success
+What resources are available,advice_seeking,resource available
+I think What resources are available,advice_seeking,think resource available
+resources are available What,advice_seeking,resource available
+How to handle this situation,advice_seeking,handle situation
+I think How to handle this situation,advice_seeking,think handle situation
+to handle How this situation,advice_seeking,handle situation
+What is my dropout risk,risk_inquiry,dropout risk
+I feel like What is my dropout risk,risk_inquiry,feel like dropout risk
+What is my dropout likelihood,risk_inquiry,dropout likelihood
+my risk dropout What is,risk_inquiry,risk dropout
+Am I at risk of failing,risk_inquiry,risk failing
+I feel like Am I at risk of failing,risk_inquiry,feel like risk failing
+Am I at likelihood of failing,risk_inquiry,likelihood failing
+Am I at failing of risk,risk_inquiry,failing risk
+Will I graduate on time,risk_inquiry,graduate time
+I feel like Will I graduate on time,risk_inquiry,feel like graduate time
+Will I graduate on hours,risk_inquiry,graduate hour
+on graduate I Will time,risk_inquiry,graduate time
+Predict my chances,risk_inquiry,predict chance
+I think Predict my chances,risk_inquiry,think predict chance
+How likely am I to drop out,risk_inquiry,likely drop
+I believe How likely am I to drop out,risk_inquiry,believe likely drop
+likely out How drop I to am,risk_inquiry,likely drop
+Tell me my risk level,risk_inquiry,tell risk level
+I think Tell me my risk level,risk_inquiry,think tell risk level
+Tell me my probability level,risk_inquiry,tell probability level
+me my Tell level risk,risk_inquiry,tell level risk
+Am I in danger of failing,risk_inquiry,danger failing
+I think Am I in danger of failing,risk_inquiry,think danger failing
+Am danger I of failing in,risk_inquiry,danger failing
+What's my probability of success,risk_inquiry,whats probability success
+I believe What's my probability of success,risk_inquiry,believe whats probability success
+What's success of my probability,risk_inquiry,whats success probability
+Risk assessment for me,risk_inquiry,risk assessment
+I think Risk assessment for me,risk_inquiry,think risk assessment
+assessment me for Risk,risk_inquiry,assessment risk
+Can you predict my outcome,risk_inquiry,predict outcome
+I think Can you predict my outcome,risk_inquiry,think predict outcome
+you outcome predict my Can,risk_inquiry,outcome predict
+Am I on track to graduate,risk_inquiry,track graduate
+I believe Am I on track to graduate,risk_inquiry,believe track graduate
+I to graduate on Am track,risk_inquiry,graduate track
+Dropout probability,risk_inquiry,dropout probability
+I feel like Dropout probability,risk_inquiry,feel like dropout probability
+Success prediction,risk_inquiry,success prediction
+I feel like Success prediction,risk_inquiry,feel like success prediction
+Academic standing check,risk_inquiry,academic standing check
+I believe Academic standing check,risk_inquiry,believe academic standing check
+Risk evaluation needed,risk_inquiry,risk evaluation needed
+I feel like Risk evaluation needed,risk_inquiry,feel like risk evaluation needed
+Hello,greeting,hello
+I feel like Hello,greeting,feel like hello
+Hi there,greeting,
+I think Hi there,greeting,think
+Hey,greeting,hey
+I believe Hey,greeting,believe hey
+Good morning,greeting,good morning
+I believe Good morning,greeting,believe good morning
+Good afternoon,greeting,good afternoon
+I feel like Good afternoon,greeting,feel like good afternoon
+Thanks,gratitude,thanks
+I think Thanks,gratitude,think thanks
+Thank you,gratitude,thank
+I believe Thank you,gratitude,believe thank
+Appreciate the help,gratitude,appreciate help
+I think Appreciate the help,gratitude,think appreciate help
+Appreciate the support,gratitude,appreciate support
+Bye,farewell,bye
+I think Bye,farewell,think bye
+Goodbye,farewell,goodbye
+I believe Goodbye,farewell,believe goodbye

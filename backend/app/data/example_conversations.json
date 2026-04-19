@@ -1,0 +1,188 @@
+[
+  {
+    "timestamp": "2026-02-15T20:10:28.391585",
+    "user_message": "I'm struggling with my math course",
+    "intent": "academic_difficulty",
+    "risk_level": "HIGH"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.393145",
+    "user_message": "I failed my midterm exam",
+    "intent": "academic_difficulty",
+    "risk_level": "HIGH"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.394665",
+    "user_message": "My grades are dropping this semester",
+    "intent": "academic_difficulty",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.396076",
+    "user_message": "Can't understand the lectures",
+    "intent": "academic_difficulty",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.397604",
+    "user_message": "Need help with my homework",
+    "intent": "academic_difficulty",
+    "risk_level": "LOW"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.399072",
+    "user_message": "Can't pay my tuition fees",
+    "intent": "financial_concerns",
+    "risk_level": "HIGH"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.400619",
+    "user_message": "Need scholarship information",
+    "intent": "financial_concerns",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.402100",
+    "user_message": "Looking for financial aid",
+    "intent": "financial_concerns",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.403511",
+    "user_message": "Tuition is too expensive",
+    "intent": "financial_concerns",
+    "risk_level": "LOW"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.404899",
+    "user_message": "No time to study",
+    "intent": "time_management",
+    "risk_level": "HIGH"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.406312",
+    "user_message": "Too busy with work and school",
+    "intent": "time_management",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.407676",
+    "user_message": "Can't manage my schedule",
+    "intent": "time_management",
+    "risk_level": "LOW"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.409057",
+    "user_message": "I want to quit university",
+    "intent": "motivation_issues",
+    "risk_level": "HIGH"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.410505",
+    "user_message": "Thinking of dropping out",
+    "intent": "motivation_issues",
+    "risk_level": "HIGH"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.411884",
+    "user_message": "Feeling demotivated",
+    "intent": "mental_health",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.413332",
+    "user_message": "Feeling very stressed",
+    "intent": "mental_health",
+    "risk_level": "HIGH"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.415469",
+    "user_message": "Anxiety about exams",
+    "intent": "mental_health",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.417129",
+    "user_message": "Need someone to talk to",
+    "intent": "mental_health",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.418532",
+    "user_message": "What is my dropout risk",
+    "intent": "risk_inquiry",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.419725",
+    "user_message": "Am I at risk of failing",
+    "intent": "academic_difficulty",
+    "risk_level": "LOW"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.420895",
+    "user_message": "Will I graduate on time",
+    "intent": "risk_inquiry",
+    "risk_level": "LOW"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.422104",
+    "user_message": "How can I improve my grades",
+    "intent": "advice_seeking",
+    "risk_level": "LOW"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.423260",
+    "user_message": "Give me some study tips",
+    "intent": "advice_seeking",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.424444",
+    "user_message": "What should I do",
+    "intent": "advice_seeking",
+    "risk_level": "HIGH"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.425482",
+    "user_message": "Hello",
+    "intent": "greeting",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.426504",
+    "user_message": "Hi there",
+    "intent": "greeting",
+    "risk_level": "LOW"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.427580",
+    "user_message": "Thank you",
+    "intent": "gratitude",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.428668",
+    "user_message": "Thanks for the help",
+    "intent": "gratitude",
+    "risk_level": "LOW"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.431002",
+    "user_message": "I'm struggling with my courses",
+    "intent": "academic_difficulty",
+    "risk_level": "LOW"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.432166",
+    "user_message": "I'm struggling with my courses",
+    "intent": "academic_difficulty",
+    "risk_level": "MEDIUM"
+  },
+  {
+    "timestamp": "2026-02-15T20:10:28.433416",
+    "user_message": "I'm struggling with my courses",
+    "intent": "academic_difficulty",
+    "risk_level": "HIGH"
+  }
+]

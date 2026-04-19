@@ -1,0 +1,336 @@
+{
+  "academic_difficulty": {
+    "primary": [
+      "struggling",
+      "difficult",
+      "hard",
+      "fail",
+      "failing",
+      "failed",
+      "trouble"
+    ],
+    "secondary": [
+      "grade",
+      "grades",
+      "exam",
+      "test",
+      "course",
+      "class",
+      "homework",
+      "assignment",
+      "understand",
+      "confused",
+      "behind",
+      "dropping"
+    ],
+    "context": [
+      "math",
+      "science",
+      "subject",
+      "semester",
+      "professor",
+      "teacher",
+      "lecture"
+    ]
+  },
+  "financial_concerns": {
+    "primary": [
+      "money",
+      "tuition",
+      "fees",
+      "expensive",
+      "cost",
+      "pay",
+      "afford"
+    ],
+    "secondary": [
+      "financial",
+      "aid",
+      "scholarship",
+      "loan",
+      "budget",
+      "fund",
+      "emergency"
+    ],
+    "context": [
+      "bank",
+      "debt",
+      "support",
+      "assistance",
+      "help",
+      "work",
+      "job"
+    ]
+  },
+  "time_management": {
+    "primary": [
+      "time",
+      "busy",
+      "schedule",
+      "deadline",
+      "overwhelmed",
+      "balance"
+    ],
+    "secondary": [
+      "work",
+      "job",
+      "procrastinate",
+      "late",
+      "tired",
+      "hours",
+      "manage"
+    ],
+    "context": [
+      "morning",
+      "night",
+      "week",
+      "month",
+      "plan",
+      "organization"
+    ]
+  },
+  "motivation_issues": {
+    "primary": [
+      "quit",
+      "dropout",
+      "give up",
+      "motivation",
+      "demotivated",
+      "unmotivated"
+    ],
+    "secondary": [
+      "bored",
+      "interest",
+      "purpose",
+      "waste",
+      "meaning",
+      "point",
+      "care"
+    ],
+    "context": [
+      "career",
+      "future",
+      "why",
+      "continue",
+      "stop"
+    ]
+  },
+  "mental_health": {
+    "primary": [
+      "stress",
+      "anxiety",
+      "depressed",
+      "depression",
+      "mental",
+      "panic"
+    ],
+    "secondary": [
+      "overwhelmed",
+      "pressure",
+      "worry",
+      "scared",
+      "nervous",
+      "sleep",
+      "crying"
+    ],
+    "context": [
+      "counseling",
+      "help",
+      "talk",
+      "support",
+      "crisis",
+      "therapy"
+    ]
+  },
+  "family_support": {
+    "primary": [
+      "family",
+      "parents",
+      "home",
+      "house",
+      "mother",
+      "father"
+    ],
+    "secondary": [
+      "support",
+      "pressure",
+      "expectation",
+      "children",
+      "child",
+      "sibling"
+    ],
+    "context": [
+      "understanding",
+      "help",
+      "approval",
+      "crisis",
+      "problem"
+    ]
+  },
+  "career_uncertainty": {
+    "primary": [
+      "career",
+      "job",
+      "future",
+      "placement",
+      "profession"
+    ],
+    "secondary": [
+      "industry",
+      "company",
+      "salary",
+      "scope",
+      "opportunity",
+      "prospect"
+    ],
+    "context": [
+      "confused",
+      "unsure",
+      "change",
+      "major",
+      "degree",
+      "worth"
+    ]
+  },
+  "health_issues": {
+    "primary": [
+      "sick",
+      "illness",
+      "health",
+      "hospital",
+      "doctor",
+      "medical"
+    ],
+    "secondary": [
+      "treatment",
+      "medicine",
+      "appointment",
+      "condition",
+      "chronic"
+    ],
+    "context": [
+      "recovery",
+      "surgery",
+      "pain",
+      "emergency"
+    ]
+  },
+  "technical_issues": {
+    "primary": [
+      "computer",
+      "laptop",
+      "internet",
+      "wifi",
+      "technical",
+      "technology"
+    ],
+    "secondary": [
+      "software",
+      "system",
+      "error",
+      "bug",
+      "crash",
+      "access"
+    ],
+    "context": [
+      "online",
+      "login",
+      "submit",
+      "website",
+      "platform"
+    ]
+  },
+  "advice_seeking": {
+    "primary": [
+      "advice",
+      "suggest",
+      "recommend",
+      "help",
+      "guide",
+      "tip"
+    ],
+    "secondary": [
+      "what should",
+      "how to",
+      "strategy",
+      "improve",
+      "better",
+      "best"
+    ],
+    "context": [
+      "way",
+      "approach",
+      "method",
+      "resource"
+    ]
+  },
+  "risk_inquiry": {
+    "primary": [
+      "risk",
+      "chance",
+      "probability",
+      "likely",
+      "predict",
+      "forecast"
+    ],
+    "secondary": [
+      "dropout",
+      "graduate",
+      "success",
+      "assessment",
+      "evaluation",
+      "standing"
+    ],
+    "context": [
+      "odds",
+      "possibility",
+      "future",
+      "outcome"
+    ]
+  },
+  "greeting": {
+    "primary": [
+      "hello",
+      "hi",
+      "hey",
+      "greetings",
+      "good morning",
+      "good afternoon"
+    ],
+    "secondary": [
+      "start",
+      "begin",
+      "help",
+      "assistance"
+    ],
+    "context": []
+  },
+  "gratitude": {
+    "primary": [
+      "thanks",
+      "thank you",
+      "appreciate",
+      "grateful"
+    ],
+    "secondary": [
+      "helpful",
+      "awesome",
+      "great"
+    ],
+    "context": []
+  },
+  "farewell": {
+    "primary": [
+      "bye",
+      "goodbye",
+      "see you",
+      "talk later"
+    ],
+    "secondary": [
+      "exit",
+      "leave",
+      "end"
+    ],
+    "context": []
+  }
+}

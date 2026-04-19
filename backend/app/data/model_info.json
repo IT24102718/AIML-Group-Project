@@ -1,0 +1,8 @@
+{
+  "best_model_path": "models/intent_classifier_best.pkl",
+  "vectorizer_path": "models/tfidf_vectorizer.pkl",
+  "responses_path": "data/response_templates.json",
+  "risk_factors_path": "data/top_risk_factors.json",
+  "keywords_path": "data/intent_keywords.json",
+  "performance_path": "data/model_performance.json"
+}

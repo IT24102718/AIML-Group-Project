@@ -1,0 +1,476 @@
+{
+  "greeting": {
+    "text": "Hello! I'm your academic assistant. How can I support you today?",
+    "tips": [
+      "Ask about study strategies",
+      "Get time management advice",
+      "Discuss financial concerns"
+    ],
+    "resources": [
+      "Student Success Center",
+      "Academic Advising Office"
+    ]
+  },
+  "gratitude": {
+    "text": "You're very welcome! I'm glad I could help. Feel free to ask anytime."
+  },
+  "farewell": {
+    "text": "Take care! Remember I'm always here when you need academic support."
+  },
+  "general": {
+    "text": "I can help you with several topics. Just ask me about:\n\n• Study tips and learning strategies\n• Time management and organization\n• Academic challenges\n• Financial concerns and aid\n• Motivation and goal setting\n\nFor example, try saying: 'I need help with studying' or 'I'm feeling overwhelmed'."
+  },
+
+  "academic_difficulty": {
+    "LOW": {
+      "text": "Your academic progress looks steady. Here are some ways to maintain your momentum:",
+      "tips": [
+        "Review your notes within 24 hours of each lecture",
+        "Set aside 2-3 dedicated study hours daily",
+        "Form a small study group for challenging subjects",
+        "Use active recall instead of passive reading"
+      ],
+      "resources": [
+        "Academic Success Center (Room 203)",
+        "Peer Tutoring Program - sign up online",
+        "Study Skills Workshop - Tuesdays 2pm"
+      ]
+    },
+    "MEDIUM": {
+      "text": "I notice some academic challenges. Let's work on a plan to get you back on track:",
+      "tips": [
+        "Schedule a meeting with your academic advisor this week",
+        "Visit professors during office hours for extra help",
+        "Consider reducing your course load next semester",
+        "Join a study group for your most difficult subject"
+      ],
+      "resources": [
+        "Academic Advising - Book online",
+        "Supplemental Instruction Sessions",
+        "Learning Support Services"
+      ]
+    },
+    "HIGH": {
+      "text": "⚠️ ACADEMIC ALERT: Your performance requires immediate intervention. Please take these urgent steps within the next 24-48 hours:",
+      "tips": [
+        "STEP 1: Contact your academic advisor TODAY for an emergency meeting. Call the advising office at (555) 123-4567 or visit in person. Explain your situation and ask about academic recovery options.",
+        "STEP 2: Email all your professors immediately. Explain your circumstances, ask about extra credit opportunities, and request guidance on how to improve your grades before the next grading period.",
+        "STEP 3: Visit the tutoring center TODAY. Get help with your most challenging subjects. The center is open 9am-7pm in the library, first floor. No appointment needed for walk-ins.",
+        "STEP 4: Review your study habits completely. Create a new study schedule dedicating at least 3-4 hours daily to your most difficult courses. Use active learning techniques like practice problems and self-testing.",
+        "STEP 5: Attend ALL office hours this week for every course you're struggling with. Come prepared with specific questions and a list of topics you don't understand.",
+        "STEP 6: Complete and submit ALL pending assignments within 48 hours, even if late. Partial credit is better than zeros.",
+        "STEP 7: Check your academic standing and understand the consequences. If you're on probation, you need to know the requirements to continue your studies."
+      ],
+      "resources": [
+        "Academic Alert System - You have been flagged for immediate intervention",
+        "Dean's Office - Emergency appointments available: Call (555) 987-6543",
+        "Student Success Team - A success coach will contact you within 24 hours",
+        "Academic Recovery Program - Ask your advisor about this intensive support program",
+        "Tutoring Center - Walk-ins welcome, library 1st floor, open 9am-7pm",
+        "Writing Center - For help with papers and assignments",
+        "Disability Support Services - If you need accommodations, register immediately"
+      ]
+    }
+  },
+
+  "financial_concerns": {
+    "LOW": {
+      "text": "Your financial situation appears stable. Here are some proactive steps:",
+      "tips": [
+        "Apply for scholarships for the upcoming semester",
+        "Create a monthly budget to track expenses",
+        "Explore on-campus job opportunities",
+        "Check if you qualify for work-study programs"
+      ],
+      "resources": [
+        "Financial Aid Office - open Mon-Fri 9am-5pm",
+        "Scholarship Database: scholarships.university.edu",
+        "Student Employment Office - Room 105"
+      ]
+    },
+    "MEDIUM": {
+      "text": "Financial support is available. Here's what you should do this week:",
+      "tips": [
+        "Complete the FAFSA/financial aid application immediately",
+        "Visit the Financial Aid Office in person",
+        "Apply for emergency grants through the student portal",
+        "Discuss payment plan options with the Bursar's Office"
+      ],
+      "resources": [
+        "Financial Aid Emergency Fund - apply online",
+        "Bursar's Office - payment plan options",
+        "Student Emergency Assistance Program"
+      ]
+    },
+    "HIGH": {
+      "text": "⚠️ FINANCIAL EMERGENCY: Your situation needs immediate attention. Please act within the next 24 hours:",
+      "tips": [
+        "STEP 1: Visit the Financial Aid Office TODAY before 5pm. Go to Room 220 in the Administration Building. Bring any documents you have about your financial situation. Tell them you need emergency assistance and ask about all available options.",
+        "STEP 2: Apply for emergency financial aid immediately. The application is online at financialaid.edu/emergency or you can fill out a paper form at the Financial Aid Office. This process takes 24-48 hours, so apply NOW.",
+        "STEP 3: Speak with the Dean of Students about emergency options. The Dean's Office (Room 300) can access additional funds and resources. Explain your situation clearly and ask about the Student Crisis Fund.",
+        "STEP 4: Contact the Bursar's Office about payment deadlines. If you have an upcoming tuition deadline, ask about emergency extensions or payment plans. Don't miss deadlines - it could affect your enrollment.",
+        "STEP 5: Apply for all available scholarships immediately. Even small amounts help. Check the scholarship database and apply for anything you qualify for, even if the deadline is soon.",
+        "STEP 6: Visit the Student Employment Office about immediate job opportunities. Some on-campus jobs can start quickly. Ask about work-study and non-work-study positions.",
+        "STEP 7: Contact your family and support network. Sometimes they can provide temporary help or advice you haven't considered.",
+        "STEP 8: If you're facing housing or food insecurity, visit the Basic Needs Center (Student Union, Room 150) for immediate assistance with food, housing, and other essentials."
+      ],
+      "resources": [
+        "Financial Aid Office - Emergency walk-ins accepted, Admin Building Room 220, (555) 123-4567",
+        "Emergency Financial Aid Application - Apply online: financialaid.edu/emergency",
+        "Dean of Students - Emergency contact: Room 300 Admin Building, (555) 987-6543, dean@university.edu",
+        "Student Crisis Fund - Applications available at Dean's Office",
+        "Bursar's Office - Payment plans and extensions: Room 105 Admin Building",
+        "Basic Needs Center - Food and housing assistance: Student Union Room 150, open 9am-6pm",
+        "Student Emergency Assistance Program - Call (555) 456-7890 for immediate screening",
+        "National Student Support Hotline - 24/7 assistance: 1-800-123-4567"
+      ]
+    }
+  },
+
+  "time_management": {
+    "LOW": {
+      "text": "Your time management habits are working well. Here's how to keep it up:",
+      "tips": [
+        "Continue using a planner or digital calendar",
+        "Block out specific study times for each subject",
+        "Take regular breaks using the Pomodoro technique",
+        "Review and adjust your schedule weekly"
+      ],
+      "resources": [
+        "Time Management Workshop - online module available",
+        "Planner templates at Student Success Center",
+        "Recommended productivity apps list"
+      ]
+    },
+    "MEDIUM": {
+      "text": "Time management could be improved. Try these practical strategies:",
+      "tips": [
+        "Create a fixed daily study schedule and stick to it",
+        "Reduce non-essential commitments temporarily",
+        "Use the 2:1 ratio (2 hours study to 1 hour work)",
+        "Set specific, achievable goals for each study session"
+      ],
+      "resources": [
+        "Time Management Counseling - book appointment",
+        "Weekly planning template - download",
+        "Student Success Workshop - Thursdays"
+      ]
+    },
+    "HIGH": {
+      "text": "⚠️ TIME MANAGEMENT CRISIS: Your schedule is critically impacting your academics. Take these steps TODAY:",
+      "tips": [
+        "STEP 1: Meet with your academic advisor IMMEDIATELY. Call the advising office at (555) 123-4567 and ask for an emergency appointment. Bring your current schedule and all course syllabi. Discuss whether you need to reduce your course load or take a leave of absence.",
+        "STEP 2: Create an EMERGENCY STUDY PLAN for this week. List all upcoming deadlines and prioritize them by due date and weight. Focus only on the most critical assignments that will have the biggest impact on your grades.",
+        "STEP 3: Contact your professors TODAY. Email them explaining your situation and ask about extensions on upcoming deadlines. Be honest about your struggles and show them your plan to catch up.",
+        "STEP 4: Use a time-blocking method for the next 7 days. Schedule every hour from 8am to 10pm. Include classes, meals, sleep, and dedicated study blocks. Follow this schedule strictly - no exceptions.",
+        "STEP 5: Eliminate ALL non-essential activities temporarily. This includes social events, extracurriculars, and entertainment. Your priority is catching up academically.",
+        "STEP 6: If you're working, consider reducing work hours temporarily. Speak with your employer about your academic situation and ask for reduced hours for the next 2-3 weeks.",
+        "STEP 7: Work with the university's time management coach. Schedule a session this week by calling the Student Success Center at (555) 789-0123. They can help you create a sustainable schedule.",
+        "STEP 8: Use the Pomodoro technique for ALL study sessions. Study for 25 minutes, break for 5 minutes. This prevents burnout and maintains focus during intense study periods.",
+        "STEP 9: Identify your most productive hours and schedule your most difficult subjects during those times. If you're a morning person, study challenging material before noon.",
+        "STEP 10: Check in with your advisor again in 3 days to report progress and adjust your plan as needed."
+      ],
+      "resources": [
+        "Academic Advising - Emergency appointments: (555) 123-4567, Admin Building Room 220",
+        "Student Success Coordinator - Assigned to you, call (555) 789-0123",
+        "Time Management Intensive Program - Starts every Monday, register online",
+        "Counseling Services - For stress management: (555) 456-7890",
+        "Learning Center - Study skills coaching: Library Room 200",
+        "Online Scheduling Tools - Access through student portal",
+        "Emergency Deadline Extension Forms - Download from registrar's website"
+      ]
+    }
+  },
+
+  "motivation_issues": {
+    "LOW": {
+      "text": "Staying motivated is important. Here are some ideas to keep your momentum:",
+      "tips": [
+        "Connect with student clubs and organizations",
+        "Set small, achievable weekly goals",
+        "Find a study buddy or accountability partner",
+        "Remind yourself of your long-term career goals"
+      ],
+      "resources": [
+        "Student Life - club listings online",
+        "Motivation Workshop - online resources",
+        "Peer Mentoring Program"
+      ]
+    },
+    "MEDIUM": {
+      "text": "Loss of motivation is common and manageable. Here's how to address it:",
+      "tips": [
+        "Speak with a counselor about motivation strategies",
+        "Take a career assessment test to explore options",
+        "Talk to professors in your major field",
+        "Join a student support group"
+      ],
+      "resources": [
+        "Counseling Center - appointments available",
+        "Career Services - explore your options",
+        "Student Support Group - meets Fridays"
+      ]
+    },
+    "HIGH": {
+      "text": "⚠️ MOTIVATION AND WELL-BEING ALERT: Your feelings need immediate attention. Please reach out TODAY:",
+      "tips": [
+        "STEP 1: Schedule a counseling appointment TODAY. Call the Counseling Center at (555) 456-7890 and ask for an emergency appointment. Tell them you're struggling with motivation and considering dropping out. They have same-day appointments for urgent situations.",
+        "STEP 2: Talk to someone you trust immediately. Call a family member, close friend, or mentor. You don't have to go through this alone. Share what you're feeling and let them support you.",
+        "STEP 3: Visit the Dean of Students office (Room 300) for immediate support. They can connect you with resources, discuss leave of absence options if needed, and help you navigate your situation.",
+        "STEP 4: DON'T make any major decisions right now. When we're struggling, we often make choices we regret later. Give yourself 48 hours before deciding about dropping out or making other major changes.",
+        "STEP 5: Take a mental health day if needed. It's okay to step back and rest. Use this time to practice self-care, sleep, and clear your mind. Then return with a fresh perspective.",
+        "STEP 6: Identify the root cause. Ask yourself: Is it the subject matter? The workload? Personal issues? Career uncertainty? Understanding WHY helps find the right solution.",
+        "STEP 7: Talk to a professor you trust. Many faculty have been through similar struggles and can offer perspective and advice. They may also provide flexibility with assignments.",
+        "STEP 8: Connect with other students. Join a support group or talk to classmates. Knowing others feel the same way can be incredibly validating and helpful.",
+        "STEP 9: Set one small goal for tomorrow. Just one. Make it achievable, like attending one class or studying for 30 minutes. Small wins build momentum.",
+        "STEP 10: Remember why you started. Think about your goals, your dreams, and what brought you to university. Sometimes reconnecting with your purpose helps rebuild motivation."
+      ],
+      "resources": [
+        "Counseling Center - Crisis line: (555) 456-7890 (available 24/7)",
+        "24/7 Student Support Hotline: 1-800-555-HELP",
+        "Dean of Students - Immediate assistance: Room 300 Admin Building, (555) 987-6543",
+        "Peer Support Network - Connect with trained student listeners",
+        "Student Support Groups - Meeting schedule online",
+        "Career Services - Explore your options and purpose",
+        "Academic Advising - Discuss academic options without pressure",
+        "National Suicide Prevention Lifeline: 988 or 1-800-273-8255",
+        "Crisis Text Line: Text HOME to 741741"
+      ]
+    }
+  },
+
+  "study_tips": {
+    "LOW": {
+      "text": "Here are some effective study techniques to maintain your success:",
+      "tips": [
+        "Use the Pomodoro technique: 25 min focus, 5 min break",
+        "Practice active recall by testing yourself",
+        "Review material within 24 hours of learning it",
+        "Teach concepts to someone else to deepen understanding"
+      ],
+      "resources": [
+        "Study Skills Workshop",
+        "Peer Tutoring Program",
+        "Academic Success Center"
+      ]
+    },
+    "MEDIUM": {
+      "text": "Here are study tips to help improve your academic performance:",
+      "tips": [
+        "Create a weekly study timetable with 1-2 hours daily",
+        "Focus on your weakest topics first",
+        "Use past papers to practice and identify gaps",
+        "Remove distractions during study sessions"
+      ],
+      "resources": [
+        "Academic Advising",
+        "Supplemental Instruction Sessions",
+        "Time Management Workshop"
+      ]
+    },
+    "HIGH": {
+      "text": "⚠️ EMERGENCY STUDY PLAN: You need to act quickly to get back on track. Follow this plan TODAY:",
+      "tips": [
+        "STEP 1: Start with just 30 minutes of focused study TODAY. Don't overwhelm yourself. Small starts lead to momentum.",
+        "STEP 2: Identify your 3 most urgent subjects or assignments. List them in order of priority based on deadlines and impact on your grades.",
+        "STEP 3: For each priority subject, create a focused study plan. Break down what you need to learn into small, manageable chunks.",
+        "STEP 4: Use past papers and practice questions to target likely exam areas. This is the most efficient way to study when time is limited.",
+        "STEP 5: Attend ALL professor office hours this week. Come with specific questions. Professors appreciate students who seek help.",
+        "STEP 6: Find a study buddy or accountability partner. Check in with each other daily. Share what you accomplished and what you'll do next.",
+        "STEP 7: Use the Pomodoro technique for every study session. 25 minutes of intense focus, 5 minute break. This prevents burnout.",
+        "STEP 8: Create a dedicated study space free from distractions. Put your phone away, close unnecessary tabs, and focus completely.",
+        "STEP 9: Test yourself regularly, don't just re-read notes. Use flashcards, practice problems, and explain concepts out loud.",
+        "STEP 10: Get help immediately when stuck. Visit the tutoring center, ask classmates, or email professors. Don't let confusion pile up."
+      ],
+      "resources": [
+        "Academic Advising - Emergency appointments: (555) 123-4567",
+        "Tutoring Center - Walk-ins welcome, Library 1st floor, open 9am-7pm",
+        "Student Success Team - Will contact you within 24 hours",
+        "Supplemental Instruction - Session schedule online",
+        "Writing Center - For paper help, Library Room 205",
+        "Study Skills Coaching - Learning Center, by appointment",
+        "Online Study Resources - Access through library website"
+      ]
+    }
+  },
+
+  "mental_health": {
+    "LOW": {
+      "text": "Taking care of your mental health is important for academic success. Here are some wellness tips:",
+      "tips": [
+        "Take short breaks during study sessions",
+        "Stay connected with friends and family",
+        "Aim for 7-8 hours of sleep each night",
+        "Practice mindfulness or deep breathing"
+      ],
+      "resources": [
+        "Wellness Center",
+        "Self-care Resources Online",
+        "Campus Recreation Activities"
+      ]
+    },
+    "MEDIUM": {
+      "text": "Mental health support is available when you need it. Here are your options:",
+      "tips": [
+        "Schedule a counseling appointment this week",
+        "Join a peer support group",
+        "Try stress management techniques",
+        "Talk to a trusted professor or advisor"
+      ],
+      "resources": [
+        "Counseling Services - book online",
+        "Peer Support Network",
+        "Stress Management Workshop"
+      ]
+    },
+    "HIGH": {
+      "text": "⚠️ MENTAL HEALTH PRIORITY: Your wellbeing is the most important thing. Please reach out for support IMMEDIATELY:",
+      "tips": [
+        "STEP 1: Contact counseling services RIGHT NOW. Call the Counseling Center at (555) 456-7890 and ask to speak with a crisis counselor. They have professionals available 24/7 for urgent situations.",
+        "STEP 2: If you're in crisis or need immediate help, call the 24/7 Crisis Hotline at 1-800-555-HELP. Trained counselors are available any time, day or night.",
+        "STEP 3: You don't have to struggle alone. Help is available and people care about you. Reaching out is a sign of strength, not weakness.",
+        "STEP 4: Visit the Dean of Students office (Room 300) for immediate support and resources. They can help with academic accommodations, leave of absence options, and connecting you with mental health services.",
+        "STEP 5: If you're having thoughts of harming yourself, call 988 or go to the nearest emergency room immediately. Your safety is the absolute priority.",
+        "STEP 6: Talk to someone you trust right now - a friend, family member, RA, or professor. Tell them what you're experiencing. Sometimes just sharing helps.",
+        "STEP 7: Practice immediate self-care. If you're overwhelmed, step away from academics for 24 hours. Sleep, eat well, go outside, do something you enjoy.",
+        "STEP 8: Contact your professors about your situation. Most will work with you on deadlines and accommodations if you communicate honestly.",
+        "STEP 9: Consider taking a mental health day or short break. It's okay to prioritize your wellbeing over academics temporarily.",
+        "STEP 10: Remember that mental health challenges are treatable and temporary. With proper support, things can and will get better."
+      ],
+      "resources": [
+        "Counseling Center - 24/7 Crisis Line: (555) 456-7890",
+        "National Suicide Prevention Lifeline: 988",
+        "Crisis Text Line: Text HOME to 741741",
+        "24/7 Student Support Hotline: 1-800-555-HELP",
+        "Dean of Students - Immediate assistance: Room 300 Admin Building, (555) 987-6543",
+        "Emergency Mental Health Services - Campus Health Center, open 24/7",
+        "Peer Support Network - Trained student listeners available evenings",
+        "Wellness Center - Self-care resources and workshops",
+        "Local Emergency Room - University Hospital, 123 Medical Drive",
+        "Academic Accommodations - Disability Support Services, (555) 234-5678"
+      ]
+    }
+  },
+
+  "risk_inquiry": {
+    "LOW": {
+      "text": "Your current risk level is LOW. You're on the right track!",
+      "tips": [
+        "Continue with your current study habits",
+        "Stay engaged with your courses",
+        "Keep using available resources",
+        "Check in with your advisor periodically"
+      ],
+      "resources": [
+        "Success Strategies Guide",
+        "Academic Planning Resources"
+      ]
+    },
+    "MEDIUM": {
+      "text": "Your risk level is MEDIUM. The main factors are: {factors}",
+      "tips": [
+        "Address these factors proactively",
+        "Schedule a meeting with your academic advisor",
+        "Use the recommended support services",
+        "Create an action plan this week"
+      ],
+      "resources": [
+        "Academic Advising",
+        "Student Support Services",
+        "Risk Reduction Strategies"
+      ]
+    },
+    "HIGH": {
+      "text": "⚠️ HIGH RISK ALERT: Your situation requires immediate attention. The critical factors are: {factors}. Please take these steps TODAY:",
+      "tips": [
+        "STEP 1: Schedule an emergency meeting with your academic advisor immediately. Call (555) 123-4567 and explain your risk level. They need to know you're in a critical situation.",
+        "STEP 2: Develop an action plan TODAY. List each risk factor and specific steps to address it. Be concrete and set deadlines for each step.",
+        "STEP 3: Contact the Student Success Team. A success coach will work with you intensively. Call (555) 789-0123 to request immediate support.",
+        "STEP 4: Use ALL available support resources simultaneously. Don't wait - use tutoring, counseling, advising, and financial aid all at once.",
+        "STEP 5: Communicate with your professors. Email them today explaining your situation and asking for guidance on improving your standing.",
+        "STEP 6: Review your academic standing and understand the consequences. Know exactly what you need to do to avoid academic probation or dismissal.",
+        "STEP 7: Create a daily schedule for the next 30 days. Include classes, study time, appointments with support services, and self-care.",
+        "STEP 8: Identify one person who will check in on you daily. This could be a friend, family member, or success coach. Accountability is crucial.",
+        "STEP 9: Don't ignore any of the risk factors. Each one contributes to your overall situation. Address them all, not just the most obvious ones.",
+        "STEP 10: Remember that high risk doesn't mean failure. With intensive intervention now, you can still succeed. But you must act TODAY."
+      ],
+      "resources": [
+        "Academic Advising - Emergency appointments: (555) 123-4567",
+        "Student Success Team - Intensive coaching: (555) 789-0123",
+        "Dean's Office - Immediate intervention: Room 300 Admin Building",
+        "Emergency Academic Support - Tutoring Center, Library 1st floor",
+        "Counseling Services - Mental health support: (555) 456-7890",
+        "Financial Aid Office - Emergency funds: (555) 123-4568",
+        "Learning Center - Study skills coaching",
+        "Retention Specialist - Assigned to high-risk students",
+        "Academic Recovery Program - Ask your advisor about this",
+        "Student Support Services - Comprehensive assistance"
+      ]
+    }
+  },
+
+  "advice_seeking": {
+    "LOW": {
+      "text": "Based on your LOW risk profile, focus on maintaining your good habits.",
+      "tips": [
+        "Stay organized with your coursework",
+        "Keep a consistent study schedule",
+        "Stay connected with peers and professors",
+        "Plan ahead for upcoming deadlines"
+      ],
+      "resources": [
+        "Success Resources Online",
+        "Academic Planning Tools"
+      ]
+    },
+    "MEDIUM": {
+      "text": "Based on your MEDIUM risk profile, focus on improving: {factors}",
+      "tips": [
+        "Prioritize these areas for improvement",
+        "Seek help early rather than waiting",
+        "Use academic support services",
+        "Check in with your advisor regularly"
+      ],
+      "resources": [
+        "Academic Support Services",
+        "Counseling Resources",
+        "Student Success Workshops"
+      ]
+    },
+    "HIGH": {
+      "text": "⚠️ URGENT ADVICE NEEDED: Based on your HIGH risk profile, you must address these factors immediately: {factors}. Follow this urgent action plan:",
+      "tips": [
+        "STEP 1: Take immediate action on ALL risk factors listed above. Each one is critical and needs attention starting TODAY.",
+        "STEP 2: Seek professional help right away. Contact academic advising, counseling, and financial aid TODAY. Don't wait or prioritize one over another.",
+        "STEP 3: Don't delay - early intervention is proven to work. Students who seek help immediately have much higher success rates.",
+        "STEP 4: Use every available resource simultaneously. This is not the time to be selective. Use tutoring, counseling, advising, and financial aid all at once.",
+        "STEP 5: Create a written action plan with specific deadlines. Share it with your advisor or success coach and update them on your progress.",
+        "STEP 6: Communicate with your professors about your situation. Be honest about your challenges and show them your action plan.",
+        "STEP 7: Check in with your advisor or success coach every 2-3 days. Regular accountability will keep you on track.",
+        "STEP 8: Don't try to solve everything alone. Let the support systems help you. That's what they're here for.",
+        "STEP 9: Be honest with yourself about what's not working. If something isn't helping, try a different approach or resource.",
+        "STEP 10: Remember that many students have been in your situation and succeeded. With intensive support now, you can too."
+      ],
+      "resources": [
+        "Emergency Academic Support - Call (555) 123-4567",
+        "Dean's Office - Immediate assistance: Room 300",
+        "Student Success Team - Intensive coaching available",
+        "Counseling Services - Mental health crisis support",
+        "Financial Aid Office - Emergency funding options",
+        "Tutoring Center - Walk-in help, Library 1st floor",
+        "Academic Recovery Program - Ask your advisor",
+        "Retention Specialist - Assigned to high-risk students",
+        "24/7 Student Support Hotline: 1-800-555-HELP"
+      ]
+    }
+  },
+
+  "default": {
+    "text": "Thank you for reaching out. A student success counselor will contact you within 24 hours to provide personalized support.",
+    "resources": [
+      "Student Success Center",
+      "Counseling Services",
+      "Academic Advising Office"
+    ]
+  }
+}
