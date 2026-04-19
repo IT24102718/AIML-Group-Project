@@ -1,0 +1,30 @@
+{
+  "student_id": "TEST_001",
+  "risk_level": "Dropout",
+  "confidence": 0.67,
+  "probabilities": {
+    "Graduate": 0.67,
+    "Enrolled": 0.25,
+    "Dropout": 0.08
+  },
+  "summary": "Low risk student. Keep up the good work!",
+  "top_risk_factors": [
+    {
+      "feature": "Father's qualification",
+      "impact": 0.016,
+      "advice": "Monitor this factor."
+    },
+    {
+      "feature": "Mother's qualification",
+      "impact": 0.007,
+      "advice": "Monitor this factor."
+    }
+  ],
+  "top_protective_factors": [
+    {
+      "feature": "Course",
+      "impact": 0.022,
+      "advice": "Monitor this factor."
+    }
+  ]
+}

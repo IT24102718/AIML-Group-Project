@@ -1,0 +1,24 @@
+{
+  "academic_difficulty": {
+    "LOW": "Your grades are good! Keep up the great work. Consider joining study groups to maintain your momentum.",
+    "MEDIUM": "I notice you're having some academic challenges. The tutoring center is open Mon-Fri 9am-5pm. Would you like me to schedule a session?",
+    "HIGH": "Your academic performance needs attention. I strongly recommend meeting with your academic advisor today. They can help create a success plan."
+  },
+  "financial": {
+    "LOW": "Your financial status looks stable. Remember to check scholarship deadlines for next semester.",
+    "MEDIUM": "Financial concerns can be stressful. The financial aid office has emergency funds available. Would you like their contact information?",
+    "HIGH": "I'm detecting serious financial stress. Please contact the financial aid office IMMEDIATELY at financialaid@university.edu or visit room 201."
+  },
+  "time_management": {
+    "LOW": "You're managing your time well! The time management workshop next Tuesday might still be helpful.",
+    "MEDIUM": "Balancing coursework can be tricky. Have you tried using the university's planner app?",
+    "HIGH": "Your schedule looks overwhelming. Let's connect you with academic coaching - they specialize in time management."
+  },
+  "motivation": {
+    "LOW": "Staying motivated is key to success! Check out upcoming student events to stay engaged.",
+    "MEDIUM": "Loss of motivation is common. The counseling center offers great workshops on this.",
+    "HIGH": "I'm concerned about your motivation levels. Please reach out to counseling services today - they really help."
+  },
+  "risk_inquiry": "Based on your latest assessment, your risk level is {risk_level}. The main factors are {factors}. Would you like specific recommendations?",
+  "improvement_advice": "To improve your outlook, focus on: {suggestions}. I can connect you with resources for any of these areas."
+}

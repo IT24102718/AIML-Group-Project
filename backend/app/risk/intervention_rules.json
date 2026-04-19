@@ -1,0 +1,200 @@
+{
+  "version": "1.0",
+  "author": "Rajakaruna",
+  "description": "Intervention rules mapped to student risk levels for the Student Dropout Prediction System",
+  "risk_levels": {
+    "low": {
+      "threshold_range": "risk_score < 2.5",
+      "dropout_rate_range": "0% - 4.4%",
+      "priority": "routine",
+      "label": "Low Risk",
+      "interventions": [
+        {
+          "type": "preventive_monitoring",
+          "action": "Quarterly academic check-in with advisor",
+          "frequency": "once_per_semester",
+          "responsible_party": "Academic Advisor",
+          "urgency": "low"
+        },
+        {
+          "type": "academic_support",
+          "action": "Encourage participation in peer tutoring and study groups",
+          "frequency": "ongoing",
+          "responsible_party": "Student Success Center",
+          "urgency": "low"
+        },
+        {
+          "type": "financial_awareness",
+          "action": "Inform student of available scholarships and grants",
+          "frequency": "once_per_semester",
+          "responsible_party": "Financial Aid Office",
+          "urgency": "low"
+        },
+        {
+          "type": "engagement",
+          "action": "Promote involvement in student clubs and extracurricular activities",
+          "frequency": "ongoing",
+          "responsible_party": "Student Life Office",
+          "urgency": "low"
+        }
+      ],
+      "automated_alerts": {
+        "email_student": false,
+        "notify_advisor": false,
+        "escalate_to_dean": false
+      },
+      "response_timeframe_days": 30
+    },
+    "medium": {
+      "threshold_range": "2.5 <= risk_score <= 5.0",
+      "dropout_rate_range": "4.4% - 79.1%",
+      "priority": "moderate",
+      "label": "Medium Risk",
+      "interventions": [
+        {
+          "type": "mandatory_advising",
+          "action": "Schedule mandatory meeting with academic advisor within 2 weeks",
+          "frequency": "bi_monthly",
+          "responsible_party": "Academic Advisor",
+          "urgency": "medium"
+        },
+        {
+          "type": "academic_support",
+          "action": "Enroll student in supplemental instruction for struggling courses",
+          "frequency": "weekly",
+          "responsible_party": "Academic Support Center",
+          "urgency": "medium"
+        },
+        {
+          "type": "financial_review",
+          "action": "Review tuition payment status and connect with Financial Aid if outstanding",
+          "frequency": "once_per_semester",
+          "responsible_party": "Bursar and Financial Aid Office",
+          "urgency": "medium"
+        },
+        {
+          "type": "counseling",
+          "action": "Offer voluntary counseling session for motivation and stress management",
+          "frequency": "monthly",
+          "responsible_party": "Counseling Center",
+          "urgency": "medium"
+        },
+        {
+          "type": "course_load_review",
+          "action": "Evaluate course load and consider reducing units next semester",
+          "frequency": "once_per_semester",
+          "responsible_party": "Academic Advisor",
+          "urgency": "medium"
+        }
+      ],
+      "automated_alerts": {
+        "email_student": true,
+        "notify_advisor": true,
+        "escalate_to_dean": false
+      },
+      "response_timeframe_days": 14
+    },
+    "high": {
+      "threshold_range": "risk_score > 5.0",
+      "dropout_rate_range": "79.1% - 100%",
+      "priority": "urgent",
+      "label": "High Risk",
+      "interventions": [
+        {
+          "type": "immediate_outreach",
+          "action": "Contact student within 24 hours by phone or email",
+          "frequency": "immediate",
+          "responsible_party": "Student Success Coordinator",
+          "urgency": "critical"
+        },
+        {
+          "type": "emergency_advising",
+          "action": "Schedule emergency academic advising session within 48 hours",
+          "frequency": "weekly",
+          "responsible_party": "Academic Advisor and Dean of Students",
+          "urgency": "critical"
+        },
+        {
+          "type": "academic_probation_review",
+          "action": "Evaluate eligibility for academic probation support program",
+          "frequency": "immediate",
+          "responsible_party": "Academic Affairs Office",
+          "urgency": "critical"
+        },
+        {
+          "type": "emergency_financial_aid",
+          "action": "Fast-track application to emergency financial assistance fund if fees unpaid",
+          "frequency": "immediate",
+          "responsible_party": "Financial Aid Office",
+          "urgency": "critical"
+        },
+        {
+          "type": "mental_health_support",
+          "action": "Mandatory referral to counseling center for wellbeing assessment",
+          "frequency": "weekly",
+          "responsible_party": "Counseling Center",
+          "urgency": "critical"
+        },
+        {
+          "type": "peer_mentor_assignment",
+          "action": "Assign dedicated peer mentor for weekly check-ins",
+          "frequency": "weekly",
+          "responsible_party": "Peer Mentoring Program",
+          "urgency": "high"
+        },
+        {
+          "type": "faculty_notification",
+          "action": "Notify course instructors to flag any attendance or performance issues",
+          "frequency": "immediate",
+          "responsible_party": "Dean of Faculty",
+          "urgency": "high"
+        }
+      ],
+      "automated_alerts": {
+        "email_student": true,
+        "notify_advisor": true,
+        "escalate_to_dean": true
+      },
+      "response_timeframe_days": 2
+    }
+  },
+  "trigger_conditions": {
+    "academic": {
+      "description": "Triggered when academic performance metrics fall below thresholds",
+      "indicators": [
+        "success_rate_sem2 < 0.5",
+        "failure_rate_sem2 > 0.3",
+        "Curricular units 2nd sem (approved) < 3",
+        "academic_performance_score < 0.4"
+      ]
+    },
+    "financial": {
+      "description": "Triggered when financial risk indicators are present",
+      "indicators": [
+        "Tuition fees up to date == 0",
+        "Debtor == 1"
+      ]
+    },
+    "demographic": {
+      "description": "Triggered by demographic risk factors",
+      "indicators": [
+        "Age at enrollment > 25",
+        "Displaced == 1",
+        "International == 1"
+      ]
+    },
+    "protective_factors": {
+      "description": "Factors that reduce intervention urgency",
+      "indicators": [
+        "Scholarship holder == 1",
+        "family_support > 0.6",
+        "success_rate_sem1 > 0.7"
+      ]
+    }
+  },
+  "escalation_policy": {
+    "low_to_medium": "If a low-risk student misses two consecutive check-ins, escalate to medium.",
+    "medium_to_high": "If a medium-risk student fails to attend mandatory advising or shows a drop in success_rate_sem2 > 20%, escalate to high.",
+    "high_immediate": "All high-risk students are immediately escalated to the Dean of Students office."
+  }
+}

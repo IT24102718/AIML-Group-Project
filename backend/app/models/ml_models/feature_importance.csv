@@ -1,0 +1,49 @@
+feature,importance
+risk_score,0.08289915190747132
+success_rate_sem2,0.08191964760906316
+failure_rate_sem2,0.0721571914078318
+academic_performance_score,0.07075047027713272
+Curricular units 2nd sem (approved),0.04327563376330349
+failure_rate_sem1,0.039772078617731264
+success_rate_sem1,0.038777907433525834
+Curricular units 1st sem (approved),0.0386553985485723
+Curricular units 2nd sem (grade),0.03561088164856799
+family_support,0.030492079554932366
+Curricular units 1st sem (grade),0.029987195145395575
+Age at enrollment,0.026966295063382686
+Mother's occupation,0.025494873454528902
+Course,0.024829475803666474
+grade_improvement,0.024414410845317997
+Unemployment rate,0.024095047936939604
+parents_education,0.023594012944543396
+Inflation rate,0.02327419556592528
+Tuition fees up to date,0.022885307373789257
+Father's occupation,0.022606610584052934
+Curricular units 2nd sem (evaluations),0.02087860719963592
+Curricular units 1st sem (evaluations),0.01732214732863332
+Father's qualification,0.017087936698245945
+Mother's qualification,0.017067486399472625
+total_workload,0.01654458747604093
+Curricular units 2nd sem (enrolled),0.016522729743160554
+Application mode,0.013748561860539018
+Scholarship holder,0.012425397748840387
+Application order,0.012024947885412562
+Curricular units 1st sem (enrolled),0.009180698493379005
+Displaced,0.008697839756964726
+Gender,0.007084990042465046
+credits_utilization_sem1,0.005028650720310107
+Curricular units 1st sem (credited),0.004954572925096882
+credits_utilization_sem2,0.0047810662198822206
+age_group_21-25,0.004210069261022679
+Debtor,0.003893265710897199
+Previous qualification,0.0038842247878409855
+Curricular units 2nd sem (credited),0.003595901383277952
+Marital status,0.0033950358743466396
+Curricular units 1st sem (without evaluations),0.0029024394775021183
+age_group_30+,0.002605771676002816
+age_group_26-30,0.002522596507261011
+Curricular units 2nd sem (without evaluations),0.0024123681101076056
+Daytime/evening attendance,0.0019469746448914106
+International,0.0010703891786057451
+Nacionality,0.0010429798086964805
+Educational special needs,0.0007098975957939075

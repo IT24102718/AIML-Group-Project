@@ -1,0 +1,296 @@
+{
+  "version": "1.0",
+  "author": "Warnakulaarachchi",
+  "description": "Human-readable descriptions and advice for each model feature, keyed by feature name. Used by explanation_generator.py to enrich SHAP output.",
+  "classes": ["Graduate", "Enrolled", "Dropout"],
+  "features": {
+    "risk_score": {
+      "description": "Overall calculated risk score based on weighted academic and financial factors",
+      "category": "composite",
+      "high_risk_advice": "Your composite risk score is high. Seek immediate academic and financial counseling.",
+      "low_risk_advice": "Your risk score is healthy. Maintain current habits to stay on track."
+    },
+    "success_rate_sem2": {
+      "description": "Ratio of approved to enrolled curricular units in the 2nd semester",
+      "category": "academic",
+      "high_risk_advice": "Low 2nd semester success rate is a strong dropout predictor. Meet with your advisor immediately.",
+      "low_risk_advice": "High 2nd semester success rate is a strong protective factor. Keep up the good work."
+    },
+    "failure_rate_sem2": {
+      "description": "Proportion of enrolled 2nd semester units that resulted in failure",
+      "category": "academic",
+      "high_risk_advice": "High failure rate in 2nd semester significantly raises dropout risk. Enroll in supplemental instruction.",
+      "low_risk_advice": "Low failure rate indicates solid academic performance this semester."
+    },
+    "academic_performance_score": {
+      "description": "Composite score combining semester grades, approvals, and progression",
+      "category": "academic",
+      "high_risk_advice": "Academic performance score is low. Focus on improving grades and reducing failed units.",
+      "low_risk_advice": "Strong academic performance score. Continue your current study strategy."
+    },
+    "Curricular units 2nd sem (approved)": {
+      "description": "Number of curricular units approved in the 2nd semester",
+      "category": "academic",
+      "high_risk_advice": "Few units approved in 2nd semester. Consider reducing your course load or seeking tutoring.",
+      "low_risk_advice": "Good number of units approved in 2nd semester. Indicative of solid progression."
+    },
+    "failure_rate_sem1": {
+      "description": "Proportion of enrolled 1st semester units that resulted in failure",
+      "category": "academic",
+      "high_risk_advice": "High 1st semester failure rate suggests early academic difficulties. Contact your advisor.",
+      "low_risk_advice": "Low 1st semester failure rate is a positive sign of academic adaptation."
+    },
+    "success_rate_sem1": {
+      "description": "Ratio of approved to enrolled curricular units in the 1st semester",
+      "category": "academic",
+      "high_risk_advice": "Low 1st semester success rate may indicate difficulty adjusting to university. Seek academic support.",
+      "low_risk_advice": "Strong 1st semester success rate is a positive indicator of academic readiness."
+    },
+    "Tuition fees up to date": {
+      "description": "Whether the student's tuition fees are currently paid up to date (1=Yes, 0=No)",
+      "category": "financial",
+      "high_risk_advice": "Tuition fees are not up to date. Visit the Financial Aid Office immediately to avoid suspension.",
+      "low_risk_advice": "Tuition fees are paid — this is a significant protective factor."
+    },
+    "Curricular units 1st sem (approved)": {
+      "description": "Number of curricular units approved in the 1st semester",
+      "category": "academic",
+      "high_risk_advice": "Few units approved in 1st semester. Early intervention is recommended.",
+      "low_risk_advice": "Good unit approval rate in 1st semester shows academic stability."
+    },
+    "Curricular units 2nd sem (grade)": {
+      "description": "Average grade of curricular units in the 2nd semester",
+      "category": "academic",
+      "high_risk_advice": "Low 2nd semester grade average may indicate academic difficulty. Seek tutoring support.",
+      "low_risk_advice": "High average grade in 2nd semester strongly reduces dropout risk."
+    },
+    "family_support": {
+      "description": "Composite measure of family educational background and support (parents education levels)",
+      "category": "social",
+      "high_risk_advice": "Lower family support levels may mean fewer resources at home. University services can help.",
+      "low_risk_advice": "Higher family support is a protective factor contributing to academic resilience."
+    },
+    "Curricular units 1st sem (grade)": {
+      "description": "Average grade of curricular units in the 1st semester",
+      "category": "academic",
+      "high_risk_advice": "Low 1st semester grades indicate potential academic difficulty ahead.",
+      "low_risk_advice": "Good 1st semester grades are a positive predictor of eventual graduation."
+    },
+    "Age at enrollment": {
+      "description": "Age of the student at the time of enrollment",
+      "category": "demographic",
+      "high_risk_advice": "Older enrollment age can present additional challenges (work, family). Seek work-study support.",
+      "low_risk_advice": "Enrollment age is within typical range for this student population."
+    },
+    "Mother's occupation": {
+      "description": "Coded occupational category of the student's mother",
+      "category": "socioeconomic",
+      "high_risk_advice": "Socioeconomic background may limit access to support networks. Explore university assistance programs.",
+      "low_risk_advice": "Occupational background indicates adequate socioeconomic context."
+    },
+    "Course": {
+      "description": "Enrolled program or course of study",
+      "category": "academic",
+      "high_risk_advice": "Some courses have higher historical dropout rates. Speak to your program coordinator.",
+      "low_risk_advice": "Your course has a strong graduation completion rate — a positive baseline."
+    },
+    "grade_improvement": {
+      "description": "Difference in average grades between 1st and 2nd semesters (positive = improving)",
+      "category": "academic",
+      "high_risk_advice": "Grade improvement is negative — performance is declining. Immediate academic support is advised.",
+      "low_risk_advice": "Positive grade improvement shows you are adapting and growing academically."
+    },
+    "Unemployment rate": {
+      "description": "National or regional unemployment rate at time of enrollment",
+      "category": "economic",
+      "high_risk_advice": "High unemployment may affect motivation and financial stability. Career counseling may help.",
+      "low_risk_advice": "Current economic environment is relatively stable for post-graduation prospects."
+    },
+    "parents_education": {
+      "description": "Composite score reflecting the highest qualification achieved by either parent",
+      "category": "socioeconomic",
+      "high_risk_advice": "Lower parental education levels correlate with reduced support at home. Use campus resources.",
+      "low_risk_advice": "Higher parental education is associated with better academic guidance and support."
+    },
+    "Inflation rate": {
+      "description": "National inflation rate at time of enrollment",
+      "category": "economic",
+      "high_risk_advice": "High inflation may increase financial pressure on students and families.",
+      "low_risk_advice": "Stable inflation rate reduces macroeconomic pressure on your studies."
+    },
+    "Father's occupation": {
+      "description": "Coded occupational category of the student's father",
+      "category": "socioeconomic",
+      "high_risk_advice": "Socioeconomic background may affect available support. University assistance programs can help.",
+      "low_risk_advice": "Occupational background indicates adequate socioeconomic context."
+    },
+    "Curricular units 2nd sem (evaluations)": {
+      "description": "Number of evaluations (assessments) in 2nd semester curricular units",
+      "category": "academic",
+      "high_risk_advice": "High number of evaluations with poor outcomes increases risk. Seek assessment preparation support.",
+      "low_risk_advice": "Assessment participation rate is healthy."
+    },
+    "Curricular units 1st sem (evaluations)": {
+      "description": "Number of evaluations (assessments) in 1st semester curricular units",
+      "category": "academic",
+      "high_risk_advice": "Assessment engagement was low in 1st semester — a risk indicator for dropout.",
+      "low_risk_advice": "Good assessment engagement in 1st semester indicates active course participation."
+    },
+    "Father's qualification": {
+      "description": "Highest educational qualification achieved by the student's father",
+      "category": "socioeconomic",
+      "high_risk_advice": "Lower parental qualification may mean reduced academic guidance at home.",
+      "low_risk_advice": "Parental qualification indicates a positive educational background."
+    },
+    "Mother's qualification": {
+      "description": "Highest educational qualification achieved by the student's mother",
+      "category": "socioeconomic",
+      "high_risk_advice": "Lower maternal qualification may mean reduced academic guidance at home.",
+      "low_risk_advice": "Maternal qualification indicates a positive educational background."
+    },
+    "total_workload": {
+      "description": "Total number of curricular units enrolled across both semesters",
+      "category": "academic",
+      "high_risk_advice": "Very high workload relative to performance increases dropout risk. Consider reducing course load.",
+      "low_risk_advice": "Workload is well-managed given your performance level."
+    },
+    "Curricular units 2nd sem (enrolled)": {
+      "description": "Number of curricular units enrolled in the 2nd semester",
+      "category": "academic",
+      "high_risk_advice": "Heavy enrolment with poor performance is a risk factor. Review your course load with an advisor.",
+      "low_risk_advice": "Unit enrolment is appropriate for your performance level."
+    },
+    "Application mode": {
+      "description": "Mode through which the student applied (e.g., general, special, transfer)",
+      "category": "administrative",
+      "high_risk_advice": "Some application modes are associated with higher adjustment challenges. Seek orientation support.",
+      "low_risk_advice": "Your application pathway shows standard entry characteristics."
+    },
+    "Scholarship holder": {
+      "description": "Whether the student holds an active scholarship (1=Yes, 0=No)",
+      "category": "financial",
+      "high_risk_advice": "Not holding a scholarship removes a key financial safety net. Explore scholarship opportunities.",
+      "low_risk_advice": "Active scholarship is a significant protective financial factor."
+    },
+    "Application order": {
+      "description": "Order of course preference in the application (1 = first choice)",
+      "category": "administrative",
+      "high_risk_advice": "Low application order preference may indicate course misalignment. Speak to a career advisor.",
+      "low_risk_advice": "Being enrolled in your first-choice course is positively associated with motivation."
+    },
+    "Curricular units 1st sem (enrolled)": {
+      "description": "Number of curricular units enrolled in the 1st semester",
+      "category": "academic",
+      "high_risk_advice": "Heavy 1st semester enrolment with weak results is a risk factor.",
+      "low_risk_advice": "Unit enrolment in 1st semester is appropriate."
+    },
+    "Displaced": {
+      "description": "Whether the student is a displaced person (1=Yes, 0=No)",
+      "category": "demographic",
+      "high_risk_advice": "Being displaced may present social and financial challenges. University social services can assist.",
+      "low_risk_advice": "Not displaced — reduces certain social risk factors."
+    },
+    "Gender": {
+      "description": "Gender of the student",
+      "category": "demographic",
+      "high_risk_advice": "Gender-specific dropout patterns exist; targeted support programs are available.",
+      "low_risk_advice": "Gender is not a primary driver in your risk profile."
+    },
+    "credits_utilization_sem1": {
+      "description": "Ratio of credited units to enrolled units in 1st semester",
+      "category": "academic",
+      "high_risk_advice": "Low credit utilisation in 1st semester may indicate unit withdrawal or failure.",
+      "low_risk_advice": "Credit utilisation is healthy for 1st semester."
+    },
+    "Curricular units 1st sem (credited)": {
+      "description": "Number of credited (transferred/exempted) curricular units in 1st semester",
+      "category": "academic",
+      "high_risk_advice": "Review whether credited units are being properly acknowledged.",
+      "low_risk_advice": "Credit transfers are recognised and integrated into your academic plan."
+    },
+    "credits_utilization_sem2": {
+      "description": "Ratio of credited units to enrolled units in 2nd semester",
+      "category": "academic",
+      "high_risk_advice": "Low credit utilisation in 2nd semester. Check your unit status with your program coordinator.",
+      "low_risk_advice": "Credit utilisation is healthy for 2nd semester."
+    },
+    "age_group_21-25": {
+      "description": "Indicator: student age falls in the 21-25 range at enrollment",
+      "category": "demographic",
+      "high_risk_advice": "Age group 21-25 can face competing priorities. Work-study balance support is available.",
+      "low_risk_advice": "Age group does not elevate risk in your specific profile."
+    },
+    "Debtor": {
+      "description": "Whether the student has an outstanding debt to the institution (1=Yes, 0=No)",
+      "category": "financial",
+      "high_risk_advice": "Having debt to the institution is a significant financial risk factor. Contact the Bursar's Office today.",
+      "low_risk_advice": "No outstanding debt — this is a positive financial indicator."
+    },
+    "Previous qualification": {
+      "description": "Highest level of education completed prior to enrollment",
+      "category": "academic",
+      "high_risk_advice": "Lower prior qualification may mean a steeper academic adjustment curve.",
+      "low_risk_advice": "Prior qualification level indicates adequate academic preparation."
+    },
+    "Curricular units 2nd sem (credited)": {
+      "description": "Number of credited (transferred/exempted) curricular units in 2nd semester",
+      "category": "academic",
+      "high_risk_advice": "Review whether 2nd semester credited units are properly recorded.",
+      "low_risk_advice": "Credit transfers are recognised for 2nd semester."
+    },
+    "Marital status": {
+      "description": "Marital status of the student",
+      "category": "demographic",
+      "high_risk_advice": "Marital status may introduce additional responsibilities affecting study time.",
+      "low_risk_advice": "Marital status is not a primary risk driver in your profile."
+    },
+    "Curricular units 1st sem (without evaluations)": {
+      "description": "Number of 1st semester units with no evaluation recorded",
+      "category": "academic",
+      "high_risk_advice": "Units without evaluations in 1st semester may indicate disengagement or withdrawal.",
+      "low_risk_advice": "All enrolled 1st semester units have assessments — good engagement indicator."
+    },
+    "age_group_30+": {
+      "description": "Indicator: student age is 30 or older at enrollment",
+      "category": "demographic",
+      "high_risk_advice": "Mature-age students often face work and family commitments. Flexible study options are available.",
+      "low_risk_advice": "Age group does not elevate risk in your specific profile."
+    },
+    "age_group_26-30": {
+      "description": "Indicator: student age falls in the 26-30 range at enrollment",
+      "category": "demographic",
+      "high_risk_advice": "Mid-career enrollment can involve competing responsibilities. Seek work-life balance support.",
+      "low_risk_advice": "Age group does not elevate risk in your specific profile."
+    },
+    "Curricular units 2nd sem (without evaluations)": {
+      "description": "Number of 2nd semester units with no evaluation recorded",
+      "category": "academic",
+      "high_risk_advice": "Units without evaluations in 2nd semester are a strong disengagement signal. Act now.",
+      "low_risk_advice": "All enrolled 2nd semester units have assessments — good engagement indicator."
+    },
+    "Daytime/evening attendance": {
+      "description": "Whether the student attends daytime or evening classes",
+      "category": "administrative",
+      "high_risk_advice": "Attendance mode may indicate work or other commitments competing with studies.",
+      "low_risk_advice": "Attendance mode is appropriate for your current profile."
+    },
+    "International": {
+      "description": "Whether the student is an international student (1=Yes, 0=No)",
+      "category": "demographic",
+      "high_risk_advice": "International students may face additional challenges. International student support services can assist.",
+      "low_risk_advice": "Not flagged as international — reduces certain administrative and cultural risk factors."
+    },
+    "Nacionality": {
+      "description": "Nationality of the student",
+      "category": "demographic",
+      "high_risk_advice": "Some nationalities face additional administrative or language barriers. Support services are available.",
+      "low_risk_advice": "Nationality is not a primary risk driver in your profile."
+    },
+    "Educational special needs": {
+      "description": "Whether the student has registered educational special needs (1=Yes, 0=No)",
+      "category": "demographic",
+      "high_risk_advice": "Ensure that your special educational needs accommodations are in place. Contact the Disability Office.",
+      "low_risk_advice": "No special educational needs on file — standard academic support applies."
+    }
+  }
+}

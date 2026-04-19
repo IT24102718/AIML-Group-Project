@@ -1,0 +1,19 @@
+{
+  "risk_score": "Overall risk score combining multiple factors",
+  "success_rate_sem2": "Percentage of courses passed in second semester",
+  "failure_rate_sem2": "Percentage of courses failed in second semester",
+  "academic_performance_score": "Weighted combination of grades and success rates",
+  "curricular_units_2nd_sem_approved": "Number of courses passed in second semester",
+  "family_support": "Composite score of scholarship, tuition status, and family situation",
+  "age_at_enrollment": "Age when student first enrolled",
+  "mothers_occupation": "Mother's occupation category",
+  "course": "Selected course of study",
+  "grade_improvement": "Change in grades from first to second semester",
+  "unemployment_rate": "Economic unemployment rate at enrollment",
+  "parents_education": "Average education level of parents",
+  "inflation_rate": "Economic inflation rate at enrollment",
+  "tuition_fees_up_to_date": "Whether tuition payments are current",
+  "fathers_occupation": "Father's occupation category",
+  "displaced": "Whether student is displaced from usual residence",
+  "debtor": "Whether student has outstanding debts"
+}

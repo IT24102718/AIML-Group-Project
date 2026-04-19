@@ -1,0 +1,18 @@
+text,intent
+I'm struggling with my courses,academic_difficulty
+Classes are too hard,academic_difficulty
+I don't understand the lectures,academic_difficulty
+My grades are dropping,academic_difficulty
+I can't pay tuition,financial
+Financial problems,financial
+Need money for school,financial
+No time to study,time_management
+Too busy for classes,time_management
+Work and study balance,time_management
+I want to quit,motivation
+Feeling demotivated,motivation
+No interest in studies,motivation
+What is my risk level,risk_inquiry
+Am I at risk,risk_inquiry
+How can I improve,improvement_advice
+What should I do,improvement_advice
